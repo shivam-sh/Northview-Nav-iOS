@@ -7,14 +7,19 @@
 //
 
 import UIKit
+import IndoorAtlas
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        guard kAPIKey.count > 0 || kAPISecret.count > 0 else { print("Configure API key and API secret inside ApiKeys.swift"); return false}
+        
+        authenticateIALocationManager()
+        
         return true
     }
 
@@ -32,6 +37,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
-
+    func authenticateIALocationManager() {
+        
+        // Get IALocationManager shared instance
+        let manager = IALocationManager.sharedInstance()
+    
+        // Set IndoorAtlas API key and secret
+        manager.setApiKey(kAPIKey, andSecret: kAPISecret)
+    }
+    
 }
 

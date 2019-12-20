@@ -20,6 +20,21 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>IANoCoreBluetoothPowerAlert</key>
+	<string>AnyString</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Platform location requested for better indoor positioning experience.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Platform location requested for better indoor positioning experience.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Platform location requested for better positioning experience.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>For Better indoor positioning.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+		<string>location</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -46,8 +61,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>

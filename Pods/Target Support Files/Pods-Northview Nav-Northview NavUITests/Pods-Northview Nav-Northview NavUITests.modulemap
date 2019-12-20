@@ -1,0 +1,6 @@
+framework module Pods_Northview_Nav_Northview_NavUITests {
+  umbrella header "Pods-Northview Nav-Northview NavUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
