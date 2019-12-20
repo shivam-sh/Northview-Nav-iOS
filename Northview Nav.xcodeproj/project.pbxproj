@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE37025323AC518D0026A764 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE37025223AC518D0026A764 /* AppDelegate.swift */; };
+		EE37025523AC518D0026A764 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE37025423AC518D0026A764 /* SceneDelegate.swift */; };
+		EE37025723AC518D0026A764 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE37025623AC518D0026A764 /* ContentView.swift */; };
+		EE37025923AC51930026A764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE37025823AC51930026A764 /* Assets.xcassets */; };
+		EE37025C23AC51930026A764 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE37025B23AC51930026A764 /* Preview Assets.xcassets */; };
+		EE37025F23AC51930026A764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE37025D23AC51930026A764 /* LaunchScreen.storyboard */; };
+		EE37026A23AC51940026A764 /* Northview_NavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE37026923AC51940026A764 /* Northview_NavTests.swift */; };
+		EE37027523AC51940026A764 /* Northview_NavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE37027423AC51940026A764 /* Northview_NavUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE37026623AC51940026A764 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE37024723AC518C0026A764 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE37024E23AC518D0026A764;
+			remoteInfo = "Northview Nav";
+		};
+		EE37027123AC51940026A764 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE37024723AC518C0026A764 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE37024E23AC518D0026A764;
+			remoteInfo = "Northview Nav";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE37024F23AC518D0026A764 /* Northview Nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Northview Nav.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE37025223AC518D0026A764 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE37025423AC518D0026A764 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE37025623AC518D0026A764 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE37025823AC51930026A764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE37025B23AC51930026A764 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE37025E23AC51930026A764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE37026023AC51930026A764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE37026523AC51940026A764 /* Northview NavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Northview NavTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE37026923AC51940026A764 /* Northview_NavTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Northview_NavTests.swift; sourceTree = "<group>"; };
+		EE37026B23AC51940026A764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE37027023AC51940026A764 /* Northview NavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Northview NavUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE37027423AC51940026A764 /* Northview_NavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Northview_NavUITests.swift; sourceTree = "<group>"; };
+		EE37027623AC51940026A764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE37024C23AC518D0026A764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE37026223AC51940026A764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE37026D23AC51940026A764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE37024623AC518C0026A764 = {
+			isa = PBXGroup;
+			children = (
+				EE37025123AC518D0026A764 /* Northview Nav */,
+				EE37026823AC51940026A764 /* Northview NavTests */,
+				EE37027323AC51940026A764 /* Northview NavUITests */,
+				EE37025023AC518D0026A764 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE37025023AC518D0026A764 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE37024F23AC518D0026A764 /* Northview Nav.app */,
+				EE37026523AC51940026A764 /* Northview NavTests.xctest */,
+				EE37027023AC51940026A764 /* Northview NavUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE37025123AC518D0026A764 /* Northview Nav */ = {
+			isa = PBXGroup;
+			children = (
+				EE37025223AC518D0026A764 /* AppDelegate.swift */,
+				EE37025423AC518D0026A764 /* SceneDelegate.swift */,
+				EE37025623AC518D0026A764 /* ContentView.swift */,
+				EE37025823AC51930026A764 /* Assets.xcassets */,
+				EE37025D23AC51930026A764 /* LaunchScreen.storyboard */,
+				EE37026023AC51930026A764 /* Info.plist */,
+				EE37025A23AC51930026A764 /* Preview Content */,
+			);
+			path = "Northview Nav";
+			sourceTree = "<group>";
+		};
+		EE37025A23AC51930026A764 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE37025B23AC51930026A764 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE37026823AC51940026A764 /* Northview NavTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE37026923AC51940026A764 /* Northview_NavTests.swift */,
+				EE37026B23AC51940026A764 /* Info.plist */,
+			);
+			path = "Northview NavTests";
+			sourceTree = "<group>";
+		};
+		EE37027323AC51940026A764 /* Northview NavUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE37027423AC51940026A764 /* Northview_NavUITests.swift */,
+				EE37027623AC51940026A764 /* Info.plist */,
+			);
+			path = "Northview NavUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE37024E23AC518D0026A764 /* Northview Nav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE37027923AC51940026A764 /* Build configuration list for PBXNativeTarget "Northview Nav" */;
+			buildPhases = (
+				EE37024B23AC518D0026A764 /* Sources */,
+				EE37024C23AC518D0026A764 /* Frameworks */,
+				EE37024D23AC518D0026A764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Northview Nav";
+			productName = "Northview Nav";
+			productReference = EE37024F23AC518D0026A764 /* Northview Nav.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE37026423AC51940026A764 /* Northview NavTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE37027C23AC51940026A764 /* Build configuration list for PBXNativeTarget "Northview NavTests" */;
+			buildPhases = (
+				EE37026123AC51940026A764 /* Sources */,
+				EE37026223AC51940026A764 /* Frameworks */,
+				EE37026323AC51940026A764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE37026723AC51940026A764 /* PBXTargetDependency */,
+			);
+			name = "Northview NavTests";
+			productName = "Northview NavTests";
+			productReference = EE37026523AC51940026A764 /* Northview NavTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE37026F23AC51940026A764 /* Northview NavUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE37027F23AC51940026A764 /* Build configuration list for PBXNativeTarget "Northview NavUITests" */;
+			buildPhases = (
+				EE37026C23AC51940026A764 /* Sources */,
+				EE37026D23AC51940026A764 /* Frameworks */,
+				EE37026E23AC51940026A764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE37027223AC51940026A764 /* PBXTargetDependency */,
+			);
+			name = "Northview NavUITests";
+			productName = "Northview NavUITests";
+			productReference = EE37027023AC51940026A764 /* Northview NavUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE37024723AC518C0026A764 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Shivam Sharma";
+				TargetAttributes = {
+					EE37024E23AC518D0026A764 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EE37026423AC51940026A764 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = EE37024E23AC518D0026A764;
+					};
+					EE37026F23AC51940026A764 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = EE37024E23AC518D0026A764;
+					};
+				};
+			};
+			buildConfigurationList = EE37024A23AC518C0026A764 /* Build configuration list for PBXProject "Northview Nav" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE37024623AC518C0026A764;
+			productRefGroup = EE37025023AC518D0026A764 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE37024E23AC518D0026A764 /* Northview Nav */,
+				EE37026423AC51940026A764 /* Northview NavTests */,
+				EE37026F23AC51940026A764 /* Northview NavUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE37024D23AC518D0026A764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE37025F23AC51930026A764 /* LaunchScreen.storyboard in Resources */,
+				EE37025C23AC51930026A764 /* Preview Assets.xcassets in Resources */,
+				EE37025923AC51930026A764 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE37026323AC51940026A764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE37026E23AC51940026A764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE37024B23AC518D0026A764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE37025323AC518D0026A764 /* AppDelegate.swift in Sources */,
+				EE37025523AC518D0026A764 /* SceneDelegate.swift in Sources */,
+				EE37025723AC518D0026A764 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE37026123AC51940026A764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE37026A23AC51940026A764 /* Northview_NavTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE37026C23AC51940026A764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE37027523AC51940026A764 /* Northview_NavUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE37026723AC51940026A764 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE37024E23AC518D0026A764 /* Northview Nav */;
+			targetProxy = EE37026623AC51940026A764 /* PBXContainerItemProxy */;
+		};
+		EE37027223AC51940026A764 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE37024E23AC518D0026A764 /* Northview Nav */;
+			targetProxy = EE37027123AC51940026A764 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE37025D23AC51930026A764 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE37025E23AC51930026A764 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE37027723AC51940026A764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE37027823AC51940026A764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE37027A23AC51940026A764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Northview Nav/Preview Content\"";
+				DEVELOPMENT_TEAM = DDBKL58GAY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Northview Nav/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sharma.Northview-Nav";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE37027B23AC51940026A764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Northview Nav/Preview Content\"";
+				DEVELOPMENT_TEAM = DDBKL58GAY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Northview Nav/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sharma.Northview-Nav";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE37027D23AC51940026A764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DDBKL58GAY;
+				INFOPLIST_FILE = "Northview NavTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sharma.Northview-NavTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Northview Nav.app/Northview Nav";
+			};
+			name = Debug;
+		};
+		EE37027E23AC51940026A764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DDBKL58GAY;
+				INFOPLIST_FILE = "Northview NavTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sharma.Northview-NavTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Northview Nav.app/Northview Nav";
+			};
+			name = Release;
+		};
+		EE37028023AC51940026A764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DDBKL58GAY;
+				INFOPLIST_FILE = "Northview NavUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sharma.Northview-NavUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Northview Nav";
+			};
+			name = Debug;
+		};
+		EE37028123AC51940026A764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DDBKL58GAY;
+				INFOPLIST_FILE = "Northview NavUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sharma.Northview-NavUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Northview Nav";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE37024A23AC518C0026A764 /* Build configuration list for PBXProject "Northview Nav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE37027723AC51940026A764 /* Debug */,
+				EE37027823AC51940026A764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE37027923AC51940026A764 /* Build configuration list for PBXNativeTarget "Northview Nav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE37027A23AC51940026A764 /* Debug */,
+				EE37027B23AC51940026A764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE37027C23AC51940026A764 /* Build configuration list for PBXNativeTarget "Northview NavTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE37027D23AC51940026A764 /* Debug */,
+				EE37027E23AC51940026A764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE37027F23AC51940026A764 /* Build configuration list for PBXNativeTarget "Northview NavUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE37028023AC51940026A764 /* Debug */,
+				EE37028123AC51940026A764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE37024723AC518C0026A764 /* Project object */;
+}
