@@ -10,7 +10,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+            VStack {
+                Text("Welcome")
+                
+                NavigationLink(destination: MapView(lat: 43.774586, long: -79.446368)){
+                    Text("Open Map")
+                }
+            }
+            .padding()
+            .navigationBarTitle(Text("Northview Nav"))
+        }
     }
 }
 
