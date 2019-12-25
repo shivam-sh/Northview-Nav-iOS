@@ -13,13 +13,13 @@ struct MapView: View {
     var long: Double
     
     var body: some View {
-        Map(lat: lat, long: long)
+        ViewController(lat: lat, long: long)
             .edgesIgnoringSafeArea(.all)
     }
 }
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        MapView(lat: 43.774586, long: -79.446368)
+        MapView(lat: 43.774386, long: -79.446368)
     }
 }
