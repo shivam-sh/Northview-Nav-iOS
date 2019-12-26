@@ -9,17 +9,15 @@
 import SwiftUI
 
 struct MapView: View {
-    var lat: Double
-    var long: Double
     
     var body: some View {
-        ViewController(lat: lat, long: long)
+        MapView()
             .edgesIgnoringSafeArea(.all)
     }
 }
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        MapView(lat: 43.774386, long: -79.446368)
+        MapView()
     }
 }

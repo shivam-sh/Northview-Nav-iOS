@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -20,19 +20,46 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		1418F81E979031D63E08E0F6BDF51F20 /* Pods-Northview Nav-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405110DA448083BA6F4AC479D70114E /* Pods-Northview Nav-dummy.m */; };
-		2B23E3F3EC45A8E6A0CFC3FA8B723252 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		306002F521A6B1379B1478667A46FD91 /* Pods-Northview Nav-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E6BA7C464679BBC13435936486BE7A /* Pods-Northview Nav-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40D83936EAB2E1D030865D0880716E38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		0CA80ED7E59E6BCE64CEEE649A3C6D2F /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 247154A5DACCD6923B3AB9F9F4DCFBE3 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		264E1A478BDFA31DA6842749C72EA535 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1E0CE0DD9CB2485674D5F7A1BC28E0C1 /* SVProgressHUD.bundle */; };
+		3392F8407B8C6F47A4E47436894642D8 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C15EFDC344DE8E1B9CDE99EBE0607F0 /* SVProgressHUD.m */; };
+		4020081B0F80095323625F167C199962 /* Pods-Northview Nav-Northview NavUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF48AC306E20B9E35659E3DB405C736 /* Pods-Northview Nav-Northview NavUITests-dummy.m */; };
+		405001BFC0E2543732931FB3F09F0C77 /* Pods-Northview Nav-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E6BA7C464679BBC13435936486BE7A /* Pods-Northview Nav-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AA3B880BDA717B2368EFB0726D70DC0 /* Pods-Northview NavTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B3F3A6CB79795607D35E8BD4AFBDAE /* Pods-Northview NavTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8168A1E77F2F0F011F9D67A24C8B7A14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		81E2D2CFDC63D19748F68802F1FC3C28 /* Pods-Northview Nav-Northview NavUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 184CD2460B87D6C591F3501FD0E96F30 /* Pods-Northview Nav-Northview NavUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8168A1E77F2F0F011F9D67A24C8B7A14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0F1732A2D4DBA41714F9E205837D34 /* Foundation.framework */; };
+		87335475EDC6596A73BCF42F334542E8 /* Pods-Northview Nav-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405110DA448083BA6F4AC479D70114E /* Pods-Northview Nav-dummy.m */; };
+		8EF1273467A3C4B927874073064FDBA2 /* Pods-Northview Nav-Northview NavUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 184CD2460B87D6C591F3501FD0E96F30 /* Pods-Northview Nav-Northview NavUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96EADE99073DBA8FCE7904627E2D18EE /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 036AFDAB5C9DB258837A6EA30F34AC06 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99456829035D2883017E8EBCDB82C231 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6193BDF9256B1B2DC71E7CF8BFFB3D /* QuartzCore.framework */; };
+		9FDEEEE37349769B84A30B0105DFF456 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 347CBABC4AFB871C67906E25E9528267 /* SVProgressHUD-dummy.m */; };
 		B293A30EEFD4A50E4554C19C2D16FF48 /* Pods-Northview NavTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72ED5CF83E62609A0E0631EE477CE94D /* Pods-Northview NavTests-dummy.m */; };
-		C7515226C96373FF199E9B72C91C7DDC /* Pods-Northview Nav-Northview NavUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF48AC306E20B9E35659E3DB405C736 /* Pods-Northview Nav-Northview NavUITests-dummy.m */; };
+		B5B9915F785CB47C5C07F0B698911B00 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 651146FD9E2CDAA6816B0DDEB97A0022 /* SVIndefiniteAnimatedView.m */; };
+		B8F6FE2CCFAF84026F9106768ADED17E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0F1732A2D4DBA41714F9E205837D34 /* Foundation.framework */; };
+		D2246BE5AF9C116D84444CC5C955BC02 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C0B83488CDC2B70BE6D0350F65CCFE /* SVRadialGradientLayer.m */; };
+		D4914107FF5A197B9D0BC6D1C089E33D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0F1732A2D4DBA41714F9E205837D34 /* Foundation.framework */; };
+		D87B2D5ED73534ACF97CE0A52FA18AE4 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D6AF1D9CAAB130F55AADF85670B5B2F /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE12057AB8895931A0E9499619C5CFC8 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70397A4E0A8F8CFB7662807BFC62988C /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0186A63060F0EB3676F95CD0ACE0E18 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = A3B6E6195016F8F3AAC773F089AABC98 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E02855715D4DEB4E8219807F18483554 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0F1732A2D4DBA41714F9E205837D34 /* Foundation.framework */; };
+		EEAA1518C49804736C3F40117D064CBE /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A48821B91041E873412BDEEF3754207 /* SVProgressAnimatedView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		274F6094A49F1FB356DB45CE470C1093 /* PBXContainerItemProxy */ = {
+		3C253A2F81A9E5DE107E4A191A024397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA6E119C34F4DE60D4FFF46C6C2543EA;
+			remoteInfo = IndoorAtlas;
+		};
+		5CFE4D446CA0BCA63C22650DC686262B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
+			remoteInfo = SVProgressHUD;
+		};
+		83B1203AD0BEB3DD38ACB5742FD13575 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -46,73 +73,99 @@
 			remoteGlobalIDString = 025A60FDDFBFC83CE9FB314FB4A24F8D;
 			remoteInfo = "Pods-Northview Nav";
 		};
-		ECD54FB1691A7D7DBEA81B1930979652 /* PBXContainerItemProxy */ = {
+		D411A50A24FC004E3D431BBD1A4097F5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AA6E119C34F4DE60D4FFF46C6C2543EA;
-			remoteInfo = IndoorAtlas;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
+			remoteInfo = SVProgressHUD;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		036AFDAB5C9DB258837A6EA30F34AC06 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		0C5D7532764E4D9E537666EB3095E229 /* IndoorAtlas.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IndoorAtlas.framework; path = "indooratlas-ios-sdk/IndoorAtlas.framework"; sourceTree = "<group>"; };
 		1474293A70ACA34B6581F1895CD759AC /* Pods_Northview_Nav_Northview_NavUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Northview_Nav_Northview_NavUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		184CD2460B87D6C591F3501FD0E96F30 /* Pods-Northview Nav-Northview NavUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Northview Nav-Northview NavUITests-umbrella.h"; sourceTree = "<group>"; };
+		1C15EFDC344DE8E1B9CDE99EBE0607F0 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		1E0CE0DD9CB2485674D5F7A1BC28E0C1 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
 		23B3F3A6CB79795607D35E8BD4AFBDAE /* Pods-Northview NavTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Northview NavTests-umbrella.h"; sourceTree = "<group>"; };
+		247154A5DACCD6923B3AB9F9F4DCFBE3 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
 		2715513FEFC66BAE847BBF8A0E2120E0 /* Pods-Northview NavTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Northview NavTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2B590801DA7658EA764687A874E28172 /* Pods_Northview_Nav.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Northview_Nav.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		301F96C399CB425515F1DC565B38696C /* Pods-Northview Nav.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Northview Nav.modulemap"; sourceTree = "<group>"; };
 		30E6BA7C464679BBC13435936486BE7A /* Pods-Northview Nav-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Northview Nav-umbrella.h"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32C0B83488CDC2B70BE6D0350F65CCFE /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		347CBABC4AFB871C67906E25E9528267 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		382351042E0707A55248FC6D1B06CB34 /* Pods-Northview Nav-Northview NavUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Northview Nav-Northview NavUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3EF48AC306E20B9E35659E3DB405C736 /* Pods-Northview Nav-Northview NavUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Northview Nav-Northview NavUITests-dummy.m"; sourceTree = "<group>"; };
+		421F7AEB88AB16B42BF2954720483EB5 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		4549A142185DDA73CBF26F22F82C6553 /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		5739D37F98FBBD3B98E77E198F1B7C51 /* Pods-Northview Nav-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Northview Nav-acknowledgements.plist"; sourceTree = "<group>"; };
 		60623B416BD0BE1937F9236CAB03869C /* Pods-Northview Nav.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Northview Nav.debug.xcconfig"; sourceTree = "<group>"; };
+		651146FD9E2CDAA6816B0DDEB97A0022 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		656B4478BC68FBD9E9EDC55A21DED5D6 /* Pods-Northview Nav-Northview NavUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Northview Nav-Northview NavUITests-frameworks.sh"; sourceTree = "<group>"; };
+		70397A4E0A8F8CFB7662807BFC62988C /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		72ED5CF83E62609A0E0631EE477CE94D /* Pods-Northview NavTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Northview NavTests-dummy.m"; sourceTree = "<group>"; };
 		7839D260E5961C6DAAF375066CCCE27E /* Pods-Northview Nav-Northview NavUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Northview Nav-Northview NavUITests-Info.plist"; sourceTree = "<group>"; };
 		786C443750DFCA2EE785FD6342FB3610 /* Pods-Northview NavTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Northview NavTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		806D6B6C62D9096859607048EC0D7497 /* IndoorAtlas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IndoorAtlas.xcconfig; sourceTree = "<group>"; };
+		7D6AF1D9CAAB130F55AADF85670B5B2F /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		8232E8A86057364F15BC05A1CAD3242D /* Pods-Northview NavTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Northview NavTests.modulemap"; sourceTree = "<group>"; };
 		8405110DA448083BA6F4AC479D70114E /* Pods-Northview Nav-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Northview Nav-dummy.m"; sourceTree = "<group>"; };
+		8815103823EA4ADA8B0C3E66957DBBA9 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		8A48821B91041E873412BDEEF3754207 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
 		8A4D0710E4570D5F0681EE62194C2DA0 /* Pods-Northview Nav-Northview NavUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Northview Nav-Northview NavUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F9A90BCD314F34C6E719AAB6019A34F /* Pods-Northview Nav.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Northview Nav.release.xcconfig"; sourceTree = "<group>"; };
+		A3B6E6195016F8F3AAC773F089AABC98 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
 		AF6C82BD8BE0602BC1A7B73E27E252A4 /* Pods-Northview Nav-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Northview Nav-frameworks.sh"; sourceTree = "<group>"; };
 		B0E0A4FD2D4FF0403600CD1E06AB70E2 /* Pods-Northview Nav-Northview NavUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Northview Nav-Northview NavUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6A7932FDCD838A919EB90435DF44F17 /* Pods-Northview NavTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Northview NavTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BDCFB1177513E514A37BDA26BE41600C /* IndoorAtlas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IndoorAtlas.xcconfig; sourceTree = "<group>"; };
+		CB6193BDF9256B1B2DC71E7CF8BFFB3D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		CBF2BA6F0D6EF07F0C2E075CC61F2213 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
 		CC339706053B60D2C96176AE66866F64 /* Pods-Northview Nav-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Northview Nav-Info.plist"; sourceTree = "<group>"; };
 		CF8A0E366666F9B1E2B1516656A29DC2 /* Pods-Northview Nav-Northview NavUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Northview Nav-Northview NavUITests.modulemap"; sourceTree = "<group>"; };
 		D51FA517944EE384FB0D1A5EE70CB78D /* Pods-Northview Nav-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Northview Nav-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E7ACF6DF26D3106C6ACF28DCA46CB753 /* Pods_Northview_NavTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Northview_NavTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0F1732A2D4DBA41714F9E205837D34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F62DCBC5046C0E6BFFE086CB047D3442 /* Pods-Northview NavTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Northview NavTests-Info.plist"; sourceTree = "<group>"; };
 		F70D8D0056BB4E6B42C6C17FA351624C /* Pods-Northview Nav-Northview NavUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Northview Nav-Northview NavUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F735902D9FC98B2343520B78E39F8D84 /* Pods-Northview NavTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Northview NavTests.release.xcconfig"; sourceTree = "<group>"; };
-		F8FE888BB6BF051692E3C85529C8F84E /* IndoorAtlas.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IndoorAtlas.framework; path = "indooratlas-ios-sdk/IndoorAtlas.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0F00ACA9C954D986ECC6D579300334B7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				40D83936EAB2E1D030865D0880716E38 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1BCDA2E556B1BCB823BD2FD1AE8DBF5F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2B23E3F3EC45A8E6A0CFC3FA8B723252 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		99F373753C1EE0E88AC195D22CA6B2BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8168A1E77F2F0F011F9D67A24C8B7A14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D1D1191F24E31CEEA04BDB3FB4C0F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4914107FF5A197B9D0BC6D1C089E33D /* Foundation.framework in Frameworks */,
+				99456829035D2883017E8EBCDB82C231 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57E43D4C612D8EEA3078DE30C906279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02855715D4DEB4E8219807F18483554 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA856481EDF040C7C32CBE425BF90F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F6FE2CCFAF84026F9106768ADED17E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +189,14 @@
 			path = "Target Support Files/Pods-Northview Nav";
 			sourceTree = "<group>";
 		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C850C37433B9EAF70AA8EF4EC21FC43 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		23759393DCBDA017DD4FAE6989B0C55B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,13 +207,32 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2E79D85112FF883D65117305050D6F42 /* Support Files */ = {
+		2DDC49F45F69BDB2F87E522EF02EA060 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				806D6B6C62D9096859607048EC0D7497 /* IndoorAtlas.xcconfig */,
+				2B590801DA7658EA764687A874E28172 /* Pods_Northview_Nav.framework */,
+				1474293A70ACA34B6581F1895CD759AC /* Pods_Northview_Nav_Northview_NavUITests.framework */,
+				E7ACF6DF26D3106C6ACF28DCA46CB753 /* Pods_Northview_NavTests.framework */,
+				E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/IndoorAtlas";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F1C471D754E69FB2D58FAB87C210F59 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				036AFDAB5C9DB258837A6EA30F34AC06 /* SVIndefiniteAnimatedView.h */,
+				651146FD9E2CDAA6816B0DDEB97A0022 /* SVIndefiniteAnimatedView.m */,
+				A3B6E6195016F8F3AAC773F089AABC98 /* SVProgressAnimatedView.h */,
+				8A48821B91041E873412BDEEF3754207 /* SVProgressAnimatedView.m */,
+				247154A5DACCD6923B3AB9F9F4DCFBE3 /* SVProgressHUD.h */,
+				1C15EFDC344DE8E1B9CDE99EBE0607F0 /* SVProgressHUD.m */,
+				7D6AF1D9CAAB130F55AADF85670B5B2F /* SVRadialGradientLayer.h */,
+				32C0B83488CDC2B70BE6D0350F65CCFE /* SVRadialGradientLayer.m */,
+				C2AED71E9DE427CC774D49AC9027DA97 /* Resources */,
+				DF68D0B22D22518030C4ECCAD18F497A /* Support Files */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 		5828EC427D03F3E8A8C9EAD2CCB656B5 /* Pods-Northview Nav-Northview NavUITests */ = {
@@ -172,31 +252,30 @@
 			path = "Target Support Files/Pods-Northview Nav-Northview NavUITests";
 			sourceTree = "<group>";
 		};
-		6D90CDA6BEBC9804F93EA45783C2455B /* Products */ = {
+		6214060BF9193D69BD92C8363E51F086 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2B590801DA7658EA764687A874E28172 /* Pods_Northview_Nav.framework */,
-				1474293A70ACA34B6581F1895CD759AC /* Pods_Northview_Nav_Northview_NavUITests.framework */,
-				E7ACF6DF26D3106C6ACF28DCA46CB753 /* Pods_Northview_NavTests.framework */,
+				0C5D7532764E4D9E537666EB3095E229 /* IndoorAtlas.framework */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		736B4FA4D84EC373EB7DD8D7B64363CD /* IndoorAtlas */ = {
+		6C850C37433B9EAF70AA8EF4EC21FC43 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D6C56D960A36EE8E5FB07ED21B918650 /* Frameworks */,
-				2E79D85112FF883D65117305050D6F42 /* Support Files */,
+				EB0F1732A2D4DBA41714F9E205837D34 /* Foundation.framework */,
+				CB6193BDF9256B1B2DC71E7CF8BFFB3D /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6F1D4EA892A8DBC172424334E4525126 /* IndoorAtlas */ = {
+			isa = PBXGroup;
+			children = (
+				6214060BF9193D69BD92C8363E51F086 /* Frameworks */,
+				B94DB8D55B8EB1DC7EA19FD758C2DBD6 /* Support Files */,
 			);
 			path = IndoorAtlas;
-			sourceTree = "<group>";
-		};
-		A3D7500DAD52FB50D1E4FCD18FCDC7DD /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				736B4FA4D84EC373EB7DD8D7B64363CD /* IndoorAtlas */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		A8286DE5D1E7B4896F9072DBC1B93604 /* Pods-Northview NavTests */ = {
@@ -215,49 +294,65 @@
 			path = "Target Support Files/Pods-Northview NavTests";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		B94DB8D55B8EB1DC7EA19FD758C2DBD6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				BDCFB1177513E514A37BDA26BE41600C /* IndoorAtlas.xcconfig */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/IndoorAtlas";
+			sourceTree = "<group>";
+		};
+		C2AED71E9DE427CC774D49AC9027DA97 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1E0CE0DD9CB2485674D5F7A1BC28E0C1 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				A3D7500DAD52FB50D1E4FCD18FCDC7DD /* Pods */,
-				6D90CDA6BEBC9804F93EA45783C2455B /* Products */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				D1241EE71E72C773C247A8EBE9AA8D87 /* Pods */,
+				2DDC49F45F69BDB2F87E522EF02EA060 /* Products */,
 				23759393DCBDA017DD4FAE6989B0C55B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D1241EE71E72C773C247A8EBE9AA8D87 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				6F1D4EA892A8DBC172424334E4525126 /* IndoorAtlas */,
+				3F1C471D754E69FB2D58FAB87C210F59 /* SVProgressHUD */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		D6C56D960A36EE8E5FB07ED21B918650 /* Frameworks */ = {
+		DF68D0B22D22518030C4ECCAD18F497A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F8FE888BB6BF051692E3C85529C8F84E /* IndoorAtlas.framework */,
+				8815103823EA4ADA8B0C3E66957DBBA9 /* SVProgressHUD.modulemap */,
+				CBF2BA6F0D6EF07F0C2E075CC61F2213 /* SVProgressHUD.xcconfig */,
+				347CBABC4AFB871C67906E25E9528267 /* SVProgressHUD-dummy.m */,
+				4549A142185DDA73CBF26F22F82C6553 /* SVProgressHUD-Info.plist */,
+				421F7AEB88AB16B42BF2954720483EB5 /* SVProgressHUD-prefix.pch */,
+				70397A4E0A8F8CFB7662807BFC62988C /* SVProgressHUD-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5CF74B3299660028C4AD913CAB904AA9 /* Headers */ = {
+		0DDC3D3C9287667D883E5B4BAC993E4C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				306002F521A6B1379B1478667A46FD91 /* Pods-Northview Nav-umbrella.h in Headers */,
+				8EF1273467A3C4B927874073064FDBA2 /* Pods-Northview Nav-Northview NavUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,11 +364,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EF52FC0B7EB48550CD8ED963924419E /* Headers */ = {
+		7C044C67F11489EFA3459B8399E7061C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81E2D2CFDC63D19748F68802F1FC3C28 /* Pods-Northview Nav-Northview NavUITests-umbrella.h in Headers */,
+				96EADE99073DBA8FCE7904627E2D18EE /* SVIndefiniteAnimatedView.h in Headers */,
+				E0186A63060F0EB3676F95CD0ACE0E18 /* SVProgressAnimatedView.h in Headers */,
+				DE12057AB8895931A0E9499619C5CFC8 /* SVProgressHUD-umbrella.h in Headers */,
+				0CA80ED7E59E6BCE64CEEE649A3C6D2F /* SVProgressHUD.h in Headers */,
+				D87B2D5ED73534ACF97CE0A52FA18AE4 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58007FB0F47572D347468BB7162D7D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405001BFC0E2543732931FB3F09F0C77 /* Pods-Northview Nav-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,21 +389,40 @@
 /* Begin PBXNativeTarget section */
 		025A60FDDFBFC83CE9FB314FB4A24F8D /* Pods-Northview Nav */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9E4AF3174D25D3B4D8F0DDCECBDE48C6 /* Build configuration list for PBXNativeTarget "Pods-Northview Nav" */;
+			buildConfigurationList = 2B4DD8EBE81BC87C6FCD5EF19F929B23 /* Build configuration list for PBXNativeTarget "Pods-Northview Nav" */;
 			buildPhases = (
-				5CF74B3299660028C4AD913CAB904AA9 /* Headers */,
-				A95CB9F5C7D859FD0ACC3BEF19AD3CAC /* Sources */,
-				0F00ACA9C954D986ECC6D579300334B7 /* Frameworks */,
-				9ABD1D0230D41ECF4A5B24811214CFAF /* Resources */,
+				C58007FB0F47572D347468BB7162D7D2 /* Headers */,
+				A2A888D24F58A25123187236604E1B04 /* Sources */,
+				D57E43D4C612D8EEA3078DE30C906279 /* Frameworks */,
+				7A63433FB98A222C560DB913BEF4A21E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E51535311EFBDC5E52EA8FAAF3C587BE /* PBXTargetDependency */,
+				9D0DF7617FEF643C8990283C11E60834 /* PBXTargetDependency */,
+				A642CAB5605158ACD414061AD8CE45DB /* PBXTargetDependency */,
 			);
 			name = "Pods-Northview Nav";
 			productName = "Pods-Northview Nav";
 			productReference = 2B590801DA7658EA764687A874E28172 /* Pods_Northview_Nav.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E76C288BA44757915CF3700D8A326EB7 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				7C044C67F11489EFA3459B8399E7061C /* Headers */,
+				D0233C648200ED130A278D7164E80914 /* Sources */,
+				B3D1D1191F24E31CEEA04BDB3FB4C0F2 /* Frameworks */,
+				7BB2E885B360CCC1AEF0C191542BA06E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2AE4E1C7285058E37944C3C51479ACE8 /* Pods-Northview NavTests */ = {
@@ -320,17 +446,18 @@
 		};
 		A8DADA68E8FD1DA8FE343323A4862FEE /* Pods-Northview Nav-Northview NavUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99278DB55F3943410079B3BF03EA2612 /* Build configuration list for PBXNativeTarget "Pods-Northview Nav-Northview NavUITests" */;
+			buildConfigurationList = 46C82E8A786C48782DC6332111C8BE3A /* Build configuration list for PBXNativeTarget "Pods-Northview Nav-Northview NavUITests" */;
 			buildPhases = (
-				6EF52FC0B7EB48550CD8ED963924419E /* Headers */,
-				FE53BC5D7C1009780F612FF5C13E57AA /* Sources */,
-				1BCDA2E556B1BCB823BD2FD1AE8DBF5F /* Frameworks */,
-				0E219201700D5EF02FE08E175A4E056A /* Resources */,
+				0DDC3D3C9287667D883E5B4BAC993E4C /* Headers */,
+				4767DC4517C2F5F3092CEC7771A10F0E /* Sources */,
+				DA856481EDF040C7C32CBE425BF90F69 /* Frameworks */,
+				2644CCBDBD91E09FBC83D2B953B44D1E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E1D6FA35EBCE1ED8F3F5904F99606880 /* PBXTargetDependency */,
+				D54F0108381F003A89D121A6EC809BA2 /* PBXTargetDependency */,
+				DB3E4FE499BE7E219D3F29D0500094CF /* PBXTargetDependency */,
 			);
 			name = "Pods-Northview Nav-Northview NavUITests";
 			productName = "Pods-Northview Nav-Northview NavUITests";
@@ -347,7 +474,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -355,7 +482,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 6D90CDA6BEBC9804F93EA45783C2455B /* Products */;
+			productRefGroup = 2DDC49F45F69BDB2F87E522EF02EA060 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -363,6 +490,7 @@
 				025A60FDDFBFC83CE9FB314FB4A24F8D /* Pods-Northview Nav */,
 				A8DADA68E8FD1DA8FE343323A4862FEE /* Pods-Northview Nav-Northview NavUITests */,
 				2AE4E1C7285058E37944C3C51479ACE8 /* Pods-Northview NavTests */,
+				1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */,
 			);
 		};
 /* End PBXProject section */
@@ -375,23 +503,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0E219201700D5EF02FE08E175A4E056A /* Resources */ = {
+		2644CCBDBD91E09FBC83D2B953B44D1E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9ABD1D0230D41ECF4A5B24811214CFAF /* Resources */ = {
+		7A63433FB98A222C560DB913BEF4A21E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB2E885B360CCC1AEF0C191542BA06E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264E1A478BDFA31DA6842749C72EA535 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4767DC4517C2F5F3092CEC7771A10F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4020081B0F80095323625F167C199962 /* Pods-Northview Nav-Northview NavUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		843E728327976F012E5AFC3C1C72FD4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -400,19 +544,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A95CB9F5C7D859FD0ACC3BEF19AD3CAC /* Sources */ = {
+		A2A888D24F58A25123187236604E1B04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1418F81E979031D63E08E0F6BDF51F20 /* Pods-Northview Nav-dummy.m in Sources */,
+				87335475EDC6596A73BCF42F334542E8 /* Pods-Northview Nav-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE53BC5D7C1009780F612FF5C13E57AA /* Sources */ = {
+		D0233C648200ED130A278D7164E80914 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7515226C96373FF199E9B72C91C7DDC /* Pods-Northview Nav-Northview NavUITests-dummy.m in Sources */,
+				B5B9915F785CB47C5C07F0B698911B00 /* SVIndefiniteAnimatedView.m in Sources */,
+				EEAA1518C49804736C3F40117D064CBE /* SVProgressAnimatedView.m in Sources */,
+				9FDEEEE37349769B84A30B0105DFF456 /* SVProgressHUD-dummy.m in Sources */,
+				3392F8407B8C6F47A4E47436894642D8 /* SVProgressHUD.m in Sources */,
+				D2246BE5AF9C116D84444CC5C955BC02 /* SVRadialGradientLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,22 +573,133 @@
 			target = 025A60FDDFBFC83CE9FB314FB4A24F8D /* Pods-Northview Nav */;
 			targetProxy = CB597D8D3F50A22B95DDB31100009CE3 /* PBXContainerItemProxy */;
 		};
-		E1D6FA35EBCE1ED8F3F5904F99606880 /* PBXTargetDependency */ = {
+		9D0DF7617FEF643C8990283C11E60834 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IndoorAtlas;
 			target = AA6E119C34F4DE60D4FFF46C6C2543EA /* IndoorAtlas */;
-			targetProxy = ECD54FB1691A7D7DBEA81B1930979652 /* PBXContainerItemProxy */;
+			targetProxy = 3C253A2F81A9E5DE107E4A191A024397 /* PBXContainerItemProxy */;
 		};
-		E51535311EFBDC5E52EA8FAAF3C587BE /* PBXTargetDependency */ = {
+		A642CAB5605158ACD414061AD8CE45DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = D411A50A24FC004E3D431BBD1A4097F5 /* PBXContainerItemProxy */;
+		};
+		D54F0108381F003A89D121A6EC809BA2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IndoorAtlas;
 			target = AA6E119C34F4DE60D4FFF46C6C2543EA /* IndoorAtlas */;
-			targetProxy = 274F6094A49F1FB356DB45CE470C1093 /* PBXContainerItemProxy */;
+			targetProxy = 83B1203AD0BEB3DD38ACB5742FD13575 /* PBXContainerItemProxy */;
+		};
+		DB3E4FE499BE7E219D3F29D0500094CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = 5CFE4D446CA0BCA63C22650DC686262B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2E682A80930831307DB073BD966ABC12 /* Debug */ = {
+		083E4BDDD93FCA6988D09232B208ADAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F9A90BCD314F34C6E719AAB6019A34F /* Pods-Northview Nav.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Northview Nav/Pods-Northview Nav-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Northview Nav/Pods-Northview Nav.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		14B7CB2CEBD8C21102BE04C4666D1F2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 60623B416BD0BE1937F9236CAB03869C /* Pods-Northview Nav.debug.xcconfig */;
 			buildSettings = {
@@ -457,7 +716,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Northview Nav/Pods-Northview Nav-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,62 +737,7 @@
 			};
 			name = Debug;
 		};
-		620145C222FB8223D40271C4F63B8BA0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 806D6B6C62D9096859607048EC0D7497 /* IndoorAtlas.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		6C8958A2CCA48F701FA53E8850C4AAD1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F735902D9FC98B2343520B78E39F8D84 /* Pods-Northview NavTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Northview NavTests/Pods-Northview NavTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Northview NavTests/Pods-Northview NavTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		770FD24AEBDE4FB2C6FFA5EDFA7522F4 /* Debug */ = {
+		36B44CFC3608E4BF3EA674ECAAB8DE6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2715513FEFC66BAE847BBF8A0E2120E0 /* Pods-Northview NavTests.debug.xcconfig */;
 			buildSettings = {
@@ -550,7 +754,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Northview NavTests/Pods-Northview NavTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -571,9 +775,25 @@
 			};
 			name = Debug;
 		};
+		620145C222FB8223D40271C4F63B8BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDCFB1177513E514A37BDA26BE41600C /* IndoorAtlas.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		860413058B659DAAA40C73C90E48AAA6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 806D6B6C62D9096859607048EC0D7497 /* IndoorAtlas.xcconfig */;
+			baseConfigurationReference = BDCFB1177513E514A37BDA26BE41600C /* IndoorAtlas.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -588,7 +808,194 @@
 			};
 			name = Release;
 		};
-		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+		996001DAD20CED9D9EFFCC0503E4E0DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF2BA6F0D6EF07F0C2E075CC61F2213 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A611196A977A9C506755B46F2911854B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382351042E0707A55248FC6D1B06CB34 /* Pods-Northview Nav-Northview NavUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Northview Nav-Northview NavUITests/Pods-Northview Nav-Northview NavUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Northview Nav-Northview NavUITests/Pods-Northview Nav-Northview NavUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB556174290E39DE9C082CA03D93CCB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF2BA6F0D6EF07F0C2E075CC61F2213 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B964B8AA31D436A70D20B0AD6D950DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0E0A4FD2D4FF0403600CD1E06AB70E2 /* Pods-Northview Nav-Northview NavUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Northview Nav-Northview NavUITests/Pods-Northview Nav-Northview NavUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Northview Nav-Northview NavUITests/Pods-Northview Nav-Northview NavUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C53D46194AD1FF4BF759FD3DEF1F0A16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F735902D9FC98B2343520B78E39F8D84 /* Pods-Northview NavTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Northview NavTests/Pods-Northview NavTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Northview NavTests/Pods-Northview NavTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -639,7 +1046,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -649,182 +1056,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		BFBC191ADC41BF22DBB7C0932D3773AD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F9A90BCD314F34C6E719AAB6019A34F /* Pods-Northview Nav.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Northview Nav/Pods-Northview Nav-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Northview Nav/Pods-Northview Nav.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C38A13BED7DA1A0A0F288B009DE71774 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 382351042E0707A55248FC6D1B06CB34 /* Pods-Northview Nav-Northview NavUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Northview Nav-Northview NavUITests/Pods-Northview Nav-Northview NavUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Northview Nav-Northview NavUITests/Pods-Northview Nav-Northview NavUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		FE0FC8DFADCDA098A88094170454F733 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0E0A4FD2D4FF0403600CD1E06AB70E2 /* Pods-Northview Nav-Northview NavUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Northview Nav-Northview NavUITests/Pods-Northview Nav-Northview NavUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Northview Nav-Northview NavUITests/Pods-Northview Nav-Northview NavUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -840,11 +1071,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		2B4DD8EBE81BC87C6FCD5EF19F929B23 /* Build configuration list for PBXNativeTarget "Pods-Northview Nav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B7CB2CEBD8C21102BE04C4666D1F2B /* Debug */,
+				083E4BDDD93FCA6988D09232B208ADAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46C82E8A786C48782DC6332111C8BE3A /* Build configuration list for PBXNativeTarget "Pods-Northview Nav-Northview NavUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B964B8AA31D436A70D20B0AD6D950DAC /* Debug */,
+				A611196A977A9C506755B46F2911854B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
-				ECB437504DF805BD96CAABF97400B526 /* Release */,
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -852,26 +1101,17 @@
 		68C26905EB84BDF315D92F388B336078 /* Build configuration list for PBXNativeTarget "Pods-Northview NavTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				770FD24AEBDE4FB2C6FFA5EDFA7522F4 /* Debug */,
-				6C8958A2CCA48F701FA53E8850C4AAD1 /* Release */,
+				36B44CFC3608E4BF3EA674ECAAB8DE6D /* Debug */,
+				C53D46194AD1FF4BF759FD3DEF1F0A16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99278DB55F3943410079B3BF03EA2612 /* Build configuration list for PBXNativeTarget "Pods-Northview Nav-Northview NavUITests" */ = {
+		E76C288BA44757915CF3700D8A326EB7 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE0FC8DFADCDA098A88094170454F733 /* Debug */,
-				C38A13BED7DA1A0A0F288B009DE71774 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9E4AF3174D25D3B4D8F0DDCECBDE48C6 /* Build configuration list for PBXNativeTarget "Pods-Northview Nav" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2E682A80930831307DB073BD966ABC12 /* Debug */,
-				BFBC191ADC41BF22DBB7C0932D3773AD /* Release */,
+				AB556174290E39DE9C082CA03D93CCB1 /* Debug */,
+				996001DAD20CED9D9EFFCC0503E4E0DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

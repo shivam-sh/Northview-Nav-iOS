@@ -4,6 +4,7 @@ target 'Northview Nav' do
   use_frameworks!
 
   pod 'IndoorAtlas'
+  pod 'SVProgressHUD'
 
   target 'Northview NavTests' do
     inherit! :search_paths

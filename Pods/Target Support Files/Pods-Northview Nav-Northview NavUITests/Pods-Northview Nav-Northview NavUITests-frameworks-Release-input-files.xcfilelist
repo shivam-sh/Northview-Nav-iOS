@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-Northview Nav-Northview NavUITests/Pods-Northview Nav-Northview NavUITests-frameworks.sh
 ${PODS_ROOT}/IndoorAtlas/indooratlas-ios-sdk/IndoorAtlas.framework
+${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework

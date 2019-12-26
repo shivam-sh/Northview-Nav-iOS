@@ -9,7 +9,7 @@
 import SwiftUI
 import MapKit
 
-struct Map: UIViewRepresentable {
+struct TestMap: UIViewRepresentable {
     var lat: Double
     var long: Double
     
@@ -27,8 +27,8 @@ struct Map: UIViewRepresentable {
     
 }
 
-struct Map_Previews: PreviewProvider {
+struct TestMap_Previews: PreviewProvider {
     static var previews: some View {
-        Map(lat: 43.774386, long: -79.446368)
+        TestMap(lat: 43.774386, long: -79.446368)
     }
 }

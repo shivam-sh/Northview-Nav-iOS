@@ -1,26 +1,27 @@
 //
-//  ContentView.swift
+//  Home.swift
 //  Northview Nav
 //
-//  Created by Shivam Sharma on 2019-12-19.
+//  Created by Shivam Sharma on 2019-12-25.
 //  Copyright © 2019 Shivam Sharma. All rights reserved.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct Home: View {
     var body: some View {
-        NavigationView {
+         NavigationView {
             VStack(alignment: .leading) {
-                NavigationLink(destination: MapView(lat: 43.774386, long: -79.446368)){
+                NavigationLink(destination: MapView()){
                     OpenMapButton()
                         .shadow(radius: 10)
                 }
                 .buttonStyle(PlainButtonStyle())
-                
+
                 Text("Rooms")
                     .font(.title)
                     .fontWeight(.bold)
+                       
                 Spacer()
             }
             .padding()
@@ -30,12 +31,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct Home_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
-            ContentView()
-            ContentView()
-                .colorScheme(.dark)
-        }
+        Home()
     }
 }
