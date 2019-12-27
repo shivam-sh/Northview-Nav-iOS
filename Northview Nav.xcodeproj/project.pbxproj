@@ -22,8 +22,8 @@
 		EE37025F23AC51930026A764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE37025D23AC51930026A764 /* LaunchScreen.storyboard */; };
 		EE37026A23AC51940026A764 /* Northview_NavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE37026923AC51940026A764 /* Northview_NavTests.swift */; };
 		EE37027523AC51940026A764 /* Northview_NavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE37027423AC51940026A764 /* Northview_NavUITests.swift */; };
+		EE7F813923B5A6CE00F26228 /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7F813823B5A6CE00F26228 /* ApiKeys.swift */; };
 		EE8019AE23B16B28008E74F0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8019AD23B16B28008E74F0 /* MapView.swift */; };
-		EEBE55D623B47A470030393B /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBE55D523B47A470030393B /* ApiKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,8 +69,8 @@
 		EE37027023AC51940026A764 /* Northview NavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Northview NavUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE37027423AC51940026A764 /* Northview_NavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Northview_NavUITests.swift; sourceTree = "<group>"; };
 		EE37027623AC51940026A764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7F813823B5A6CE00F26228 /* ApiKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
 		EE8019AD23B16B28008E74F0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		EEBE55D523B47A470030393B /* ApiKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApiKeys.swift; path = "../../../Downloads/App Dev/ios-sdk-swift-examples-master/example/ios-sdk-swift-examples/ApiKeys.swift"; sourceTree = "<group>"; };
 		F3904020ED9A1F70727CA24C /* Pods-Northview NavTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Northview NavTests.release.xcconfig"; path = "Target Support Files/Pods-Northview NavTests/Pods-Northview NavTests.release.xcconfig"; sourceTree = "<group>"; };
 		FBCC3534242C878ADEE81BB1 /* Pods-Northview Nav.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Northview Nav.release.xcconfig"; path = "Target Support Files/Pods-Northview Nav/Pods-Northview Nav.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -172,7 +172,6 @@
 				EE1F81FA23B1B06F0037304E /* Supporting Views */,
 				EE37025223AC518D0026A764 /* AppDelegate.swift */,
 				EE37025423AC518D0026A764 /* SceneDelegate.swift */,
-				EEBE55D523B47A470030393B /* ApiKeys.swift */,
 				EE21D00C23B3E8F9000DC7FE /* Home.swift */,
 				EE8019AD23B16B28008E74F0 /* MapView.swift */,
 				EE37025823AC51930026A764 /* Assets.xcassets */,
@@ -180,6 +179,7 @@
 				EE37026023AC51930026A764 /* Info.plist */,
 				EE1F81FF23B1BB830037304E /* Resources */,
 				EE37025A23AC51930026A764 /* Preview Content */,
+				EE7F813823B5A6CE00F26228 /* ApiKeys.swift */,
 			);
 			path = "Northview Nav";
 			sourceTree = "<group>";
@@ -450,8 +450,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE37025323AC518D0026A764 /* AppDelegate.swift in Sources */,
-				EEBE55D623B47A470030393B /* ApiKeys.swift in Sources */,
 				EE37025523AC518D0026A764 /* SceneDelegate.swift in Sources */,
+				EE7F813923B5A6CE00F26228 /* ApiKeys.swift in Sources */,
 				EE21D00D23B3E8F9000DC7FE /* Home.swift in Sources */,
 				EE1F820223B1C3540037304E /* Room.swift in Sources */,
 				EE8019AE23B16B28008E74F0 /* MapView.swift in Sources */,

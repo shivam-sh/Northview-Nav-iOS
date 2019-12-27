@@ -11,7 +11,7 @@ import SwiftUI
 struct MapView: View {
     
     var body: some View {
-        MapView()
+        Map()
             .edgesIgnoringSafeArea(.all)
     }
 }
