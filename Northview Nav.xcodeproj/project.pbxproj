@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		700FE171F136FF7B28E69006 /* Pods_Northview_NavTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71CA4AA7EEC16650A9F87D9 /* Pods_Northview_NavTests.framework */; };
-		BF00084D490C86C4A6AC763B /* Pods_Northview_Nav_Northview_NavUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6E8FB5023F0E3D61E63704 /* Pods_Northview_Nav_Northview_NavUITests.framework */; };
-		DC3483C2EF130E175C7487E0 /* Pods_Northview_Nav.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398F77515DBC1112A1131933 /* Pods_Northview_Nav.framework */; };
+		255C3FD126601EB205E85F41 /* Pods_Northview_Nav.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8F90601D7FED509241CE76 /* Pods_Northview_Nav.framework */; };
+		78B3E454DCD778D368836E24 /* Pods_Northview_Nav_Northview_NavUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D95C53EA1D97EF291CED25 /* Pods_Northview_Nav_Northview_NavUITests.framework */; };
 		EE1F81EF23B179FE0037304E /* TestMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F81EE23B179FE0037304E /* TestMap.swift */; };
 		EE1F81FE23B1B2020037304E /* OpenMapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F81FD23B1B2020037304E /* OpenMapButton.swift */; };
 		EE1F820223B1C3540037304E /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F820123B1C3540037304E /* Room.swift */; };
@@ -22,6 +21,7 @@
 		EE37025F23AC51930026A764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE37025D23AC51930026A764 /* LaunchScreen.storyboard */; };
 		EE37026A23AC51940026A764 /* Northview_NavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE37026923AC51940026A764 /* Northview_NavTests.swift */; };
 		EE37027523AC51940026A764 /* Northview_NavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE37027423AC51940026A764 /* Northview_NavUITests.swift */; };
+		EE6333F285ED82616639D449 /* Pods_Northview_NavTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD0DEE79D0DF340E2AE0AA9 /* Pods_Northview_NavTests.framework */; };
 		EE7F813923B5A6CE00F26228 /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7F813823B5A6CE00F26228 /* ApiKeys.swift */; };
 		EE8019AE23B16B28008E74F0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8019AD23B16B28008E74F0 /* MapView.swift */; };
 /* End PBXBuildFile section */
@@ -44,13 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		398F77515DBC1112A1131933 /* Pods_Northview_Nav.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Northview_Nav.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4194797DDB8A319FC09C9C68 /* Pods-Northview Nav-Northview NavUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Northview Nav-Northview NavUITests.release.xcconfig"; path = "Target Support Files/Pods-Northview Nav-Northview NavUITests/Pods-Northview Nav-Northview NavUITests.release.xcconfig"; sourceTree = "<group>"; };
-		7D6E8FB5023F0E3D61E63704 /* Pods_Northview_Nav_Northview_NavUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Northview_Nav_Northview_NavUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CDF03FF387794DE63DDDE41 /* Pods-Northview NavTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Northview NavTests.debug.xcconfig"; path = "Target Support Files/Pods-Northview NavTests/Pods-Northview NavTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A1B75604D1CA38CCAA5854A9 /* Pods-Northview Nav.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Northview Nav.debug.xcconfig"; path = "Target Support Files/Pods-Northview Nav/Pods-Northview Nav.debug.xcconfig"; sourceTree = "<group>"; };
-		E00768778E2AD1E025E85EA8 /* Pods-Northview Nav-Northview NavUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Northview Nav-Northview NavUITests.debug.xcconfig"; path = "Target Support Files/Pods-Northview Nav-Northview NavUITests/Pods-Northview Nav-Northview NavUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		E71CA4AA7EEC16650A9F87D9 /* Pods_Northview_NavTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Northview_NavTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CC34C2DFF21960E5DB2903 /* Pods-Northview NavTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Northview NavTests.debug.xcconfig"; path = "Target Support Files/Pods-Northview NavTests/Pods-Northview NavTests.debug.xcconfig"; sourceTree = "<group>"; };
+		33AFFD133A49AD6F05EC0D24 /* Pods-Northview Nav.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Northview Nav.release.xcconfig"; path = "Target Support Files/Pods-Northview Nav/Pods-Northview Nav.release.xcconfig"; sourceTree = "<group>"; };
+		6023CCF603CE16513636F5AD /* Pods-Northview Nav-Northview NavUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Northview Nav-Northview NavUITests.release.xcconfig"; path = "Target Support Files/Pods-Northview Nav-Northview NavUITests/Pods-Northview Nav-Northview NavUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7D45E1CC5EED9F92D0190F15 /* Pods-Northview Nav.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Northview Nav.debug.xcconfig"; path = "Target Support Files/Pods-Northview Nav/Pods-Northview Nav.debug.xcconfig"; sourceTree = "<group>"; };
+		9DD0DEE79D0DF340E2AE0AA9 /* Pods_Northview_NavTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Northview_NavTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8F90601D7FED509241CE76 /* Pods_Northview_Nav.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Northview_Nav.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D93FE77531870A696CF4BA09 /* Pods-Northview NavTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Northview NavTests.release.xcconfig"; path = "Target Support Files/Pods-Northview NavTests/Pods-Northview NavTests.release.xcconfig"; sourceTree = "<group>"; };
+		E1D95C53EA1D97EF291CED25 /* Pods_Northview_Nav_Northview_NavUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Northview_Nav_Northview_NavUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE1F81EE23B179FE0037304E /* TestMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMap.swift; sourceTree = "<group>"; };
 		EE1F81FD23B1B2020037304E /* OpenMapButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenMapButton.swift; sourceTree = "<group>"; };
 		EE1F820123B1C3540037304E /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
@@ -71,8 +72,7 @@
 		EE37027623AC51940026A764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE7F813823B5A6CE00F26228 /* ApiKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
 		EE8019AD23B16B28008E74F0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		F3904020ED9A1F70727CA24C /* Pods-Northview NavTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Northview NavTests.release.xcconfig"; path = "Target Support Files/Pods-Northview NavTests/Pods-Northview NavTests.release.xcconfig"; sourceTree = "<group>"; };
-		FBCC3534242C878ADEE81BB1 /* Pods-Northview Nav.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Northview Nav.release.xcconfig"; path = "Target Support Files/Pods-Northview Nav/Pods-Northview Nav.release.xcconfig"; sourceTree = "<group>"; };
+		F94CC555735DAA189547F63B /* Pods-Northview Nav-Northview NavUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Northview Nav-Northview NavUITests.debug.xcconfig"; path = "Target Support Files/Pods-Northview Nav-Northview NavUITests/Pods-Northview Nav-Northview NavUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC3483C2EF130E175C7487E0 /* Pods_Northview_Nav.framework in Frameworks */,
+				255C3FD126601EB205E85F41 /* Pods_Northview_Nav.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				700FE171F136FF7B28E69006 /* Pods_Northview_NavTests.framework in Frameworks */,
+				EE6333F285ED82616639D449 /* Pods_Northview_NavTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,19 +96,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF00084D490C86C4A6AC763B /* Pods_Northview_Nav_Northview_NavUITests.framework in Frameworks */,
+				78B3E454DCD778D368836E24 /* Pods_Northview_Nav_Northview_NavUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		29574AC583A6036A04BE4160 /* Frameworks */ = {
+		07A2E6DC05D59174AFC8C43E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				398F77515DBC1112A1131933 /* Pods_Northview_Nav.framework */,
-				7D6E8FB5023F0E3D61E63704 /* Pods_Northview_Nav_Northview_NavUITests.framework */,
-				E71CA4AA7EEC16650A9F87D9 /* Pods_Northview_NavTests.framework */,
+				CE8F90601D7FED509241CE76 /* Pods_Northview_Nav.framework */,
+				E1D95C53EA1D97EF291CED25 /* Pods_Northview_Nav_Northview_NavUITests.framework */,
+				9DD0DEE79D0DF340E2AE0AA9 /* Pods_Northview_NavTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,12 +116,12 @@
 		D69116273E2E5376CF5FB6B2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A1B75604D1CA38CCAA5854A9 /* Pods-Northview Nav.debug.xcconfig */,
-				FBCC3534242C878ADEE81BB1 /* Pods-Northview Nav.release.xcconfig */,
-				E00768778E2AD1E025E85EA8 /* Pods-Northview Nav-Northview NavUITests.debug.xcconfig */,
-				4194797DDB8A319FC09C9C68 /* Pods-Northview Nav-Northview NavUITests.release.xcconfig */,
-				9CDF03FF387794DE63DDDE41 /* Pods-Northview NavTests.debug.xcconfig */,
-				F3904020ED9A1F70727CA24C /* Pods-Northview NavTests.release.xcconfig */,
+				7D45E1CC5EED9F92D0190F15 /* Pods-Northview Nav.debug.xcconfig */,
+				33AFFD133A49AD6F05EC0D24 /* Pods-Northview Nav.release.xcconfig */,
+				F94CC555735DAA189547F63B /* Pods-Northview Nav-Northview NavUITests.debug.xcconfig */,
+				6023CCF603CE16513636F5AD /* Pods-Northview Nav-Northview NavUITests.release.xcconfig */,
+				14CC34C2DFF21960E5DB2903 /* Pods-Northview NavTests.debug.xcconfig */,
+				D93FE77531870A696CF4BA09 /* Pods-Northview NavTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -152,7 +152,7 @@
 				EE37027323AC51940026A764 /* Northview NavUITests */,
 				EE37025023AC518D0026A764 /* Products */,
 				D69116273E2E5376CF5FB6B2 /* Pods */,
-				29574AC583A6036A04BE4160 /* Frameworks */,
+				07A2E6DC05D59174AFC8C43E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -217,11 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE37027923AC51940026A764 /* Build configuration list for PBXNativeTarget "Northview Nav" */;
 			buildPhases = (
-				E189016AB3DE925685D9B780 /* [CP] Check Pods Manifest.lock */,
+				D13BA1E0FBC0431A8B4A338C /* [CP] Check Pods Manifest.lock */,
 				EE37024B23AC518D0026A764 /* Sources */,
 				EE37024C23AC518D0026A764 /* Frameworks */,
 				EE37024D23AC518D0026A764 /* Resources */,
-				77828F6A72C10C096E95BC01 /* [CP] Embed Pods Frameworks */,
+				8C549537D26911BE4CA70E8F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,7 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE37027C23AC51940026A764 /* Build configuration list for PBXNativeTarget "Northview NavTests" */;
 			buildPhases = (
-				B32E8BA7E16292D5D979DCAA /* [CP] Check Pods Manifest.lock */,
+				0B07FA0E2BC10D5A5F967925 /* [CP] Check Pods Manifest.lock */,
 				EE37026123AC51940026A764 /* Sources */,
 				EE37026223AC51940026A764 /* Frameworks */,
 				EE37026323AC51940026A764 /* Resources */,
@@ -255,11 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE37027F23AC51940026A764 /* Build configuration list for PBXNativeTarget "Northview NavUITests" */;
 			buildPhases = (
-				23C6E1DF3D15254448FEA1FF /* [CP] Check Pods Manifest.lock */,
+				A899F88437C4EC200B2F2315 /* [CP] Check Pods Manifest.lock */,
 				EE37026C23AC51940026A764 /* Sources */,
 				EE37026D23AC51940026A764 /* Frameworks */,
 				EE37026E23AC51940026A764 /* Resources */,
-				376914D7B05D3556C0D1F173 /* [CP] Embed Pods Frameworks */,
+				198E45441F4FA1818B35399F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -342,63 +342,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		23C6E1DF3D15254448FEA1FF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Northview Nav-Northview NavUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		376914D7B05D3556C0D1F173 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Northview Nav-Northview NavUITests/Pods-Northview Nav-Northview NavUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Northview Nav-Northview NavUITests/Pods-Northview Nav-Northview NavUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Northview Nav-Northview NavUITests/Pods-Northview Nav-Northview NavUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		77828F6A72C10C096E95BC01 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Northview Nav/Pods-Northview Nav-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Northview Nav/Pods-Northview Nav-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Northview Nav/Pods-Northview Nav-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B32E8BA7E16292D5D979DCAA /* [CP] Check Pods Manifest.lock */ = {
+		0B07FA0E2BC10D5A5F967925 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -420,7 +364,63 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E189016AB3DE925685D9B780 /* [CP] Check Pods Manifest.lock */ = {
+		198E45441F4FA1818B35399F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Northview Nav-Northview NavUITests/Pods-Northview Nav-Northview NavUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Northview Nav-Northview NavUITests/Pods-Northview Nav-Northview NavUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Northview Nav-Northview NavUITests/Pods-Northview Nav-Northview NavUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C549537D26911BE4CA70E8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Northview Nav/Pods-Northview Nav-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Northview Nav/Pods-Northview Nav-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Northview Nav/Pods-Northview Nav-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A899F88437C4EC200B2F2315 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Northview Nav-Northview NavUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D13BA1E0FBC0431A8B4A338C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -620,7 +620,7 @@
 		};
 		EE37027A23AC51940026A764 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1B75604D1CA38CCAA5854A9 /* Pods-Northview Nav.debug.xcconfig */;
+			baseConfigurationReference = 7D45E1CC5EED9F92D0190F15 /* Pods-Northview Nav.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -643,7 +643,7 @@
 		};
 		EE37027B23AC51940026A764 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBCC3534242C878ADEE81BB1 /* Pods-Northview Nav.release.xcconfig */;
+			baseConfigurationReference = 33AFFD133A49AD6F05EC0D24 /* Pods-Northview Nav.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -666,7 +666,7 @@
 		};
 		EE37027D23AC51940026A764 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CDF03FF387794DE63DDDE41 /* Pods-Northview NavTests.debug.xcconfig */;
+			baseConfigurationReference = 14CC34C2DFF21960E5DB2903 /* Pods-Northview NavTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -689,7 +689,7 @@
 		};
 		EE37027E23AC51940026A764 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3904020ED9A1F70727CA24C /* Pods-Northview NavTests.release.xcconfig */;
+			baseConfigurationReference = D93FE77531870A696CF4BA09 /* Pods-Northview NavTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -712,7 +712,7 @@
 		};
 		EE37028023AC51940026A764 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E00768778E2AD1E025E85EA8 /* Pods-Northview Nav-Northview NavUITests.debug.xcconfig */;
+			baseConfigurationReference = F94CC555735DAA189547F63B /* Pods-Northview Nav-Northview NavUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -733,7 +733,7 @@
 		};
 		EE37028123AC51940026A764 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4194797DDB8A319FC09C9C68 /* Pods-Northview Nav-Northview NavUITests.release.xcconfig */;
+			baseConfigurationReference = 6023CCF603CE16513636F5AD /* Pods-Northview Nav-Northview NavUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

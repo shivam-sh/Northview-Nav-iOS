@@ -10,7 +10,7 @@ import SwiftUI
 import UIKit
 import MapKit
 import IndoorAtlas
-import SVProgressHUD
+//import SVProgressHUD
 
 struct Map: UIViewControllerRepresentable {
     
@@ -133,8 +133,9 @@ class MapViewController: UIViewController, IALocationManagerDelegate, MKMapViewD
         pressRecognizer.delegate = self
         self.view.addGestureRecognizer(pressRecognizer)
 
+        // MARK:   Loading Graphic init
         // Show spinner while waiting for location information from IALocationManager
-        SVProgressHUD.show(withStatus: NSLocalizedString("Waiting for location data", comment: ""))
+        //SVProgressHUD.show(withStatus: NSLocalizedString("Waiting for location data", comment: ""))
     }
 
     // Function to change the map overlay
@@ -190,7 +191,8 @@ class MapViewController: UIViewController, IALocationManagerDelegate, MKMapViewD
         // Check that the location is not nil
         if let newLocation = l.location?.coordinate {
 
-            SVProgressHUD.dismiss()
+            // MARK: Loading Graphic Dismissal
+            //SVProgressHUD.dismiss()
             currentLocation = l.location
 
             if currentAccuracyCircle != nil {
@@ -217,9 +219,10 @@ class MapViewController: UIViewController, IALocationManagerDelegate, MKMapViewD
             }
         }
 
-        if let traceId = manager.extraInfo?[kIATraceId] as? NSString {
-            label.text = "TraceID: \(traceId)"
-        }
+        //  MARK: Trace ID
+        //if let traceId = manager.extraInfo?[kIATraceId] as? NSString {
+        //    label.text = "TraceID: \(traceId)"
+        //}
     }
     
     func updateCircles() {
@@ -282,7 +285,7 @@ class MapViewController: UIViewController, IALocationManagerDelegate, MKMapViewD
         
         switch region.type {
         case .iaRegionTypeVenue:
-            showToast(message: "Enter venue \(region.venue?.name ?? "Northview")")
+            showToast(message: "Entering Venue \(region.venue?.name ?? "NHSS")")
         case .iaRegionTypeFloorPlan:
             updateCamera = true
             if (region.floorplan != nil) {
@@ -310,7 +313,7 @@ class MapViewController: UIViewController, IALocationManagerDelegate, MKMapViewD
     func indoorLocationManager(_ manager: IALocationManager, didExitRegion region: IARegion) {
         switch region.type {
         case .iaRegionTypeVenue:
-            showToast(message: "Exit Venue \(region.venue?.name ?? "Northview")")
+            showToast(message: "Exiting Venue \(region.venue?.name ?? "NHSS")")
         case .iaRegionTypeFloorPlan:
             if floorPlanOverlay != nil {
                 map.removeOverlay(floorPlanOverlay!)
@@ -352,7 +355,8 @@ class MapViewController: UIViewController, IALocationManagerDelegate, MKMapViewD
         map.removeFromSuperview()
         label.removeFromSuperview()
 
-        SVProgressHUD.dismiss()
+        // MARK: Loading Graphic Dismissal
+        //SVProgressHUD.dismiss()
     }
     
     func mapView(_ mapView: MKMapView, didUpdate userLocation: MKUserLocation) {

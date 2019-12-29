@@ -8,11 +8,15 @@
 
 import SwiftUI
 
+
 struct Home: View {
     var body: some View {
          NavigationView {
             VStack(alignment: .leading) {
-                NavigationLink(destination: MapView()){
+                NavigationLink(
+                    destination: MapView()
+                        .environment(\.colorScheme, .dark)
+                    ){
                     OpenMapButton()
                         .shadow(radius: 10)
                 }

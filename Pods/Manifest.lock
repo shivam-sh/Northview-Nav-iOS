@@ -1,20 +1,16 @@
 PODS:
   - IndoorAtlas (3.1.3)
-  - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
   - IndoorAtlas
-  - SVProgressHUD
 
 SPEC REPOS:
   trunk:
     - IndoorAtlas
-    - SVProgressHUD
 
 SPEC CHECKSUMS:
   IndoorAtlas: 65374af166c75e6f1e2035d9d54bffe19f7fe61d
-  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 180782c28c7171870c0e76bf5a3276053604ccb4
+PODFILE CHECKSUM: 591b7d5a91b2b36a3b7e38c147541a7830bfb5e4
 
 COCOAPODS: 1.8.4
