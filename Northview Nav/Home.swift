@@ -25,7 +25,7 @@ struct Home: View {
                 Text("Rooms")
                     .font(.title)
                     .fontWeight(.bold)
-                       
+                Text(roomData[2].name)
                 Spacer()
             }
             .padding()

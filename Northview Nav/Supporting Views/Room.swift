@@ -17,6 +17,9 @@ struct Room: Hashable, Codable, Identifiable {
     var floor: Floor
     var description: String
     var coordinates: Coordinates
+    
+    var isFeatured: Bool
+    var isFavourite: Bool
 }
 
 enum Floor: Int, CaseIterable, Codable, Hashable {
