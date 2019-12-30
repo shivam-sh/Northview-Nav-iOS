@@ -17,6 +17,7 @@ struct Room: Hashable, Codable, Identifiable {
     var floor: Floor
     var description: String
     var coordinates: Coordinates
+    var image: String
     
     var isFeatured: Bool
     var isFavourite: Bool

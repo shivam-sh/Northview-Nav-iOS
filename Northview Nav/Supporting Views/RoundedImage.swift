@@ -8,14 +8,17 @@
 
 import SwiftUI
 
-struct OpenMapButton: View {
+struct RoundedImage: View {
+    var image: String
+    var text: String
+    
     var body: some View {
         ZStack (alignment: .bottomLeading){
-            Image("darkMap")
+            Image(image)
                 .resizable()
                 .scaledToFit()
                 .cornerRadius(20)
-            Text("Open Map")
+            Text(text)
                 .font(.title)
                 .fontWeight(.semibold)
                 .foregroundColor(Color.white)
@@ -24,8 +27,8 @@ struct OpenMapButton: View {
     }
 }
 
-struct OpenMapButton_Previews: PreviewProvider {
+struct RoundedImage_Previews: PreviewProvider {
     static var previews: some View {
-        OpenMapButton()
+        RoundedImage(image: "darkmap", text: "Open Map")
     }
 }

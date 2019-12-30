@@ -24,11 +24,30 @@ struct Map: UIViewControllerRepresentable {
     
 }
 
+#if DEBUG
+struct TestMap: UIViewRepresentable {
+    var lat: Double
+    var long: Double
+    
+    func makeUIView(context: Context) -> MKMapView {
+        MKMapView(frame: .zero)
+    }
+    
+    func updateUIView(_ view: MKMapView, context: Context) {
+        let coordinate = CLLocationCoordinate2D(
+            latitude: lat, longitude: long)
+        let span = MKCoordinateSpan(latitudeDelta: 0.003, longitudeDelta: 0.003)
+        let region = MKCoordinateRegion(center: coordinate, span: span)
+        view.setRegion(region, animated: true)
+    }
+}
+
 struct ViewController_Previews: PreviewProvider {
     static var previews: some View {
         Map()
     }
 }
+#endif
 
 // Blue dot & accuracy circle annotation class
 class LocationAnnotation: MKPointAnnotation {

@@ -11,8 +11,7 @@
 		2D3EAF8D23B96340005F2020 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3EAF8C23B96340005F2020 /* APIKeys.swift */; };
 		78B3E454DCD778D368836E24 /* Pods_Northview_Nav_Northview_NavUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D95C53EA1D97EF291CED25 /* Pods_Northview_Nav_Northview_NavUITests.framework */; };
 		EE078DAF23B9D2EE00902F18 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE078DAE23B9D2EE00902F18 /* JSONParser.swift */; };
-		EE1F81EF23B179FE0037304E /* TestMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F81EE23B179FE0037304E /* TestMap.swift */; };
-		EE1F81FE23B1B2020037304E /* OpenMapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F81FD23B1B2020037304E /* OpenMapButton.swift */; };
+		EE1F81FE23B1B2020037304E /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F81FD23B1B2020037304E /* RoundedImage.swift */; };
 		EE1F820223B1C3540037304E /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F820123B1C3540037304E /* Room.swift */; };
 		EE21D00923B3C935000DC7FE /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE21D00823B3C935000DC7FE /* Map.swift */; };
 		EE21D00D23B3E8F9000DC7FE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE21D00C23B3E8F9000DC7FE /* Home.swift */; };
@@ -24,6 +23,8 @@
 		EE37025F23AC51930026A764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE37025D23AC51930026A764 /* LaunchScreen.storyboard */; };
 		EE37026A23AC51940026A764 /* Northview_NavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE37026923AC51940026A764 /* Northview_NavTests.swift */; };
 		EE37027523AC51940026A764 /* Northview_NavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE37027423AC51940026A764 /* Northview_NavUITests.swift */; };
+		EE40714E23BA532C003A2832 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40714D23BA532C003A2832 /* RowView.swift */; };
+		EE55A52623BA8A9D00CBA7C1 /* RoomInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE55A52523BA8A9D00CBA7C1 /* RoomInfo.swift */; };
 		EE6333F285ED82616639D449 /* Pods_Northview_NavTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD0DEE79D0DF340E2AE0AA9 /* Pods_Northview_NavTests.framework */; };
 		EE8019AE23B16B28008E74F0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8019AD23B16B28008E74F0 /* MapView.swift */; };
 /* End PBXBuildFile section */
@@ -56,8 +57,7 @@
 		D93FE77531870A696CF4BA09 /* Pods-Northview NavTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Northview NavTests.release.xcconfig"; path = "Target Support Files/Pods-Northview NavTests/Pods-Northview NavTests.release.xcconfig"; sourceTree = "<group>"; };
 		E1D95C53EA1D97EF291CED25 /* Pods_Northview_Nav_Northview_NavUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Northview_Nav_Northview_NavUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE078DAE23B9D2EE00902F18 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
-		EE1F81EE23B179FE0037304E /* TestMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMap.swift; sourceTree = "<group>"; };
-		EE1F81FD23B1B2020037304E /* OpenMapButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenMapButton.swift; sourceTree = "<group>"; };
+		EE1F81FD23B1B2020037304E /* RoundedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
 		EE1F820123B1C3540037304E /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		EE21D00823B3C935000DC7FE /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		EE21D00C23B3E8F9000DC7FE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -75,6 +75,8 @@
 		EE37027023AC51940026A764 /* Northview NavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Northview NavUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE37027423AC51940026A764 /* Northview_NavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Northview_NavUITests.swift; sourceTree = "<group>"; };
 		EE37027623AC51940026A764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE40714D23BA532C003A2832 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		EE55A52523BA8A9D00CBA7C1 /* RoomInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomInfo.swift; sourceTree = "<group>"; };
 		EE8019AD23B16B28008E74F0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		F94CC555735DAA189547F63B /* Pods-Northview Nav-Northview NavUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Northview Nav-Northview NavUITests.debug.xcconfig"; path = "Target Support Files/Pods-Northview Nav-Northview NavUITests/Pods-Northview Nav-Northview NavUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,11 +135,10 @@
 		EE1F81FA23B1B06F0037304E /* Supporting Views */ = {
 			isa = PBXGroup;
 			children = (
-				EE21D00823B3C935000DC7FE /* Map.swift */,
-				EE1F81EE23B179FE0037304E /* TestMap.swift */,
-				EE1F81FD23B1B2020037304E /* OpenMapButton.swift */,
-				EE1F820123B1C3540037304E /* Room.swift */,
 				EE078DAE23B9D2EE00902F18 /* JSONParser.swift */,
+				EE1F820123B1C3540037304E /* Room.swift */,
+				EE1F81FD23B1B2020037304E /* RoundedImage.swift */,
+				EE21D00823B3C935000DC7FE /* Map.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -179,13 +180,15 @@
 				EE37025223AC518D0026A764 /* AppDelegate.swift */,
 				EE37025423AC518D0026A764 /* SceneDelegate.swift */,
 				EE21D00C23B3E8F9000DC7FE /* Home.swift */,
+				EE55A52523BA8A9D00CBA7C1 /* RoomInfo.swift */,
 				EE8019AD23B16B28008E74F0 /* MapView.swift */,
+				EE40714D23BA532C003A2832 /* RowView.swift */,
+				2D3EAF8C23B96340005F2020 /* APIKeys.swift */,
 				EE37025823AC51930026A764 /* Assets.xcassets */,
 				EE37025D23AC51930026A764 /* LaunchScreen.storyboard */,
 				EE37026023AC51930026A764 /* Info.plist */,
 				EE1F81FF23B1BB830037304E /* Resources */,
 				EE37025A23AC51930026A764 /* Preview Content */,
-				2D3EAF8C23B96340005F2020 /* APIKeys.swift */,
 			);
 			path = "Northview Nav";
 			sourceTree = "<group>";
@@ -464,8 +467,9 @@
 				EE1F820223B1C3540037304E /* Room.swift in Sources */,
 				EE8019AE23B16B28008E74F0 /* MapView.swift in Sources */,
 				EE21D00923B3C935000DC7FE /* Map.swift in Sources */,
-				EE1F81EF23B179FE0037304E /* TestMap.swift in Sources */,
-				EE1F81FE23B1B2020037304E /* OpenMapButton.swift in Sources */,
+				EE40714E23BA532C003A2832 /* RowView.swift in Sources */,
+				EE55A52623BA8A9D00CBA7C1 /* RoomInfo.swift in Sources */,
+				EE1F81FE23B1B2020037304E /* RoundedImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

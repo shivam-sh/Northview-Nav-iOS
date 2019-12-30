@@ -11,8 +11,10 @@ import SwiftUI
 struct MapView: View {
     
     var body: some View {
-        Map()
-            .edgesIgnoringSafeArea(.all)
+        ZStack {
+            Map()
+                .edgesIgnoringSafeArea(.all)
+        }
     }
 }
 
