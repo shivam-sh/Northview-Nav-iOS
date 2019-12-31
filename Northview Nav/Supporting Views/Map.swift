@@ -42,7 +42,7 @@ struct TestMap: UIViewRepresentable {
     }
 }
 
-struct ViewController_Previews: PreviewProvider {
+struct Map_Previews: PreviewProvider {
     static var previews: some View {
         Map()
     }
@@ -361,6 +361,14 @@ class MapViewController: UIViewController, IALocationManagerDelegate, MKMapViewD
         view.addSubview(label)
 
         requestLocation()
+        /*
+        if (self.floorPlan != nil && self.floorPlan!.floor != nil && IF WAYFINDING IS INITIALIZED) {
+            let req = IAWayfindingRequest()
+            req.coordinate = ---Coordinates that are sent in---
+            req.floor = self.floorPlan!.floor!.level
+            self.locationManager.lockIndoors(true)
+            self.locationManager.startMonitoring(forWayfinding: req)
+        }*/
     }
 
     // Called when view will disappear and will remove the map from the view and sets its delegate to nil

@@ -7,8 +7,12 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct MapView: View {
+    var lat: Double = 0.0
+    var long: Double = 0.0
+    var initWayfinding: Bool = false
     
     var body: some View {
         ZStack {

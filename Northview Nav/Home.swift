@@ -8,7 +8,6 @@
 
 import SwiftUI
 
-
 struct Home: View {
     
     @State var isOverlaid: Bool = false
@@ -22,7 +21,7 @@ struct Home: View {
          NavigationView {
             ZStack {
                 ScrollView {
-                    NavigationLink(destination: MapView().environment(\.colorScheme, .dark)){
+                    NavigationLink(destination: MapView(lat: 0.0, long: 0.0).environment(\.colorScheme, .dark)) {
                         RoundedImage(image: "darkMap", text: "Open Map")
                             .shadow(radius: 10)
                             .padding()
@@ -34,13 +33,13 @@ struct Home: View {
                         .padding()
                         .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                     
-                    ForEach(self.featured) {room in
+                    ForEach(self.featured) { room in
                         RowView(room: room)
                             .onTapGesture {
                                 withAnimation() {
                                     self.isOverlaid.toggle()
                                     self.selectedRoom = room
-                                }
+                            }
                         }
                     }
                 }.navigationBarTitle("Northview Nav", displayMode: .automatic)
