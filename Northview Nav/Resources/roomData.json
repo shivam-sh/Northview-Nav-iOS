@@ -1,0 +1,155 @@
+[
+    {
+        "name": "The Office",
+        "id": 101,
+        "floor": 1,
+        "description": "The main office",
+        "image": "office",
+        "isFeatured": true,
+        "isFavourite": false,
+        "coordinates": {
+            "longitude": 43.77378888,
+            "latitude": -79.44634706
+        }
+    },
+    {
+        "name": "Cafeteria",
+        "id": 102,
+        "floor": 1,
+        "description": "The food eating place",
+        "image": "default",
+        "isFeatured": true,
+        "isFavourite": false,
+        "coordinates": {
+            "longitude": 43.77398201,
+            "latitude": -79.44605527
+        }
+    }
+,
+    {
+        "name": "The Library",
+        "id": 103,
+        "floor": 1,
+        "description": "The book reading place",
+        "image": "default",
+        "isFeatured": true,
+        "isFavourite": false,
+        "coordinates": {
+            "longitude": 43.77470088,
+            "latitude": -79.44723836
+        }
+    }
+,
+    {
+        "name": "Auditorium",
+        "id": 104,
+        "floor": 1,
+        "description": "The auditorium place",
+        "image": "default",
+        "isFeatured": true,
+        "isFavourite": false,
+	    "coordinates": {
+            "longitude": 43.7739477,
+            "latitude": -79.44626525
+        }
+    }
+,
+    {
+        "name": "Gym 1",
+        "id": 105,
+        "floor": 1,
+        "description": "The first gym",
+        "image": "default",
+        "isFeatured": true,
+        "isFavourite": false,
+	    "coordinates": {
+            "longitude": 43.774364,
+            "latitude": -79.44643691
+        }
+    }
+
+,
+    {
+        "name": "Gym 2",
+        "id": 106,
+        "floor": 1,
+        "description": "the secong gym",
+        "image": "default",
+        "isFeatured": true,
+        "isFavourite": false,
+	    "coordinates": {
+            "longitude": 43.77438153,
+            "latitude": -79.44628805
+        }
+    }
+,
+    {
+        "name": "Gym 3",
+        "id": 107,
+        "floor": 1,
+        "description": "The third gym",
+        "image": "default",
+        "isFeatured": false,
+        "isFavourite": false,
+	    "coordinates": {
+            "longitude": 43.77476113,
+            "latitude": -79.4459179
+        }
+    }
+,
+    {
+        "name": "RM 101",
+        "id": 108,
+        "floor": 1,
+        "description": "another room",
+        "image": "default",
+        "isFeatured": false,
+        "isFavourite": false,
+	    "coordinates": {
+            "longitude": 43.77374046,
+            "latitude": -79.44675475
+        }
+    }
+,
+    {
+        "name": "RM 103",
+        "id": 109,
+        "floor": 1,
+        "description": "another room",
+        "image": "default",
+        "isFeatured": false,
+        "isFavourite": false,
+	    "coordinates": {
+            "longitude": 43.77383343,
+            "latitude": -79.44678828
+        }
+    }
+,
+    {
+        "name": "RM 105",
+        "id": 110,
+        "floor": 1,
+        "description": "another room",
+        "image": "default",
+        "isFeatured": false,
+        "isFavourite": false,
+	    "coordinates": {
+            "longitude": 43.77393741,
+            "latitude": -79.44682573
+        }
+    }
+,
+    {
+        "name": "RM 107",
+        "id": 111,
+        "floor": 1,
+        "description": "another room",
+        "image": "default",
+        "isFeatured": false,
+        "isFavourite": false,
+	    "coordinates": {
+            "longitude": 43.77411522,
+            "latitude": -79.44690764
+        }
+    }
+]
