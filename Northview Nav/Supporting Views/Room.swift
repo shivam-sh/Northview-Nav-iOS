@@ -27,7 +27,7 @@ enum Floor: Int, CaseIterable, Codable, Hashable {
        case first = 1
        case second = 2
        case third = 3
-   }
+}
 
 struct Coordinates: Hashable, Codable {
     var latitude: Double

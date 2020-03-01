@@ -12,22 +12,18 @@ struct RowView: View {
     var room: Room
     
     var body: some View {
-        HStack {
-            Image(room.image)
-                .renderingMode(.original)
-                .resizable()
-                .scaledToFit()
-                .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
-                .shadow(radius: 10)
+        HStack (){
+            Image(room.image).renderingMode(.original).resizable().scaledToFit().clipShape(Circle()).shadow(radius: 10)
             VStack(alignment: .leading) {
                 Text(room.name)
                     .font(.headline)
                 Text(room.description)
                     .font(.caption)
                     .foregroundColor(Color.gray)
-            }
+            }//.padding(.leading, 30)
             Spacer()
-        }.frame(height: 55)
+        }.frame(height: 55).contentShape(Rectangle())
+
     }
 }
 
