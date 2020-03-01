@@ -12,7 +12,7 @@ struct Home: View {
     
     @State var showingMap = false
     @State var showingDetail = false
-    @State var selectedRoom: Room = roomData[0]
+    //@State var selectedRoom: Room = roomData[0]
     
     var featured: [Room] {
         roomData.filter { $0.isFeatured}
@@ -25,13 +25,17 @@ struct Home: View {
                         ImageCard(image: "DarkMap", text: "Open Map")
                             .shadow(radius: 10)
                             .padding()
-                    }.buttonStyle(PlainButtonStyle())
+                    }.buttonStyle(PlainButtonStyle()).onTapGesture {
+                        wayfindOnOpen = false
+                    }
                     
                     NavigationLink(destination: AllRooms()) {
                         TextCard(text: "All Rooms", color: ColorFromRGB(rgb: 0x555555))
                             .shadow(radius: 10)
                             .padding(.horizontal)
-                    }.buttonStyle(PlainButtonStyle())
+                    }.buttonStyle(PlainButtonStyle()).onTapGesture {
+                        wayfindOnOpen = true
+                    }
                     
                     Text("Featured Rooms")
                         .font(.title)
@@ -42,16 +46,17 @@ struct Home: View {
                     ForEach(featuredRooms) { room in
                         VStack {
                             Button(action: {
-                                self.showingDetail.toggle()
+                                //self.showingDetail.toggle()
                             }) {
                                 RowView(room: room)
                                     .onTapGesture {
-                                        self.selectedRoom = room
+                                        selectedRoom = room
+                                        wayfindOnOpen = true
                                         self.showingDetail.toggle()
                                 }
                             }.buttonStyle(PlainButtonStyle())
                                 .sheet(isPresented: self.$showingDetail) {
-                                    RoomInfo(room: self.selectedRoom)
+                                    RoomInfo(room: selectedRoom)
                             }
                             Divider().padding(.horizontal)
                         }

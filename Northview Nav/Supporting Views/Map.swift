@@ -152,10 +152,9 @@ class MapViewController: UIViewController, IALocationManagerDelegate, MKMapViewD
         pressRecognizer.delegate = self
         self.view.addGestureRecognizer(pressRecognizer)
 
-        // MARK:   Loading Graphic init
+        // MARK:   View Started Loading (On Screen)
         // Show spinner while waiting for location information from IALocationManager
         //SVProgressHUD.show(withStatus: NSLocalizedString("Waiting for location data", comment: ""))
-        UserDefaults.standard.set(true, forKey: "Loading")
     }
 
     // Function to change the map overlay
@@ -211,10 +210,22 @@ class MapViewController: UIViewController, IALocationManagerDelegate, MKMapViewD
         // Check that the location is not nil
         if let newLocation = l.location?.coordinate {
 
-            // MARK: Loading Graphic Dismissal
+            // MARK: View Finished Loading
             //SVProgressHUD.dismiss()
             UserDefaults.standard.set(false, forKey: "Loading")
             currentLocation = l.location
+            
+            showToast(message: "\(wayfindOnOpen)")
+            
+            //if (self.floorPlan != nil && self.floorPlan!.floor != nil) {
+            if wayfindOnOpen {
+                let req = IAWayfindingRequest()
+                req.coordinate = CLLocationCoordinate2DMake(selectedRoom.coordinates.latitude, selectedRoom.coordinates.longitude)
+                req.floor = self.floorPlan!.floor!.level
+                self.locationManager.lockIndoors(true)
+                self.locationManager.startMonitoring(forWayfinding: req)
+            }
+            //}
 
             if currentAccuracyCircle != nil {
                 map.removeOverlay(currentAccuracyCircle!)
@@ -306,7 +317,8 @@ class MapViewController: UIViewController, IALocationManagerDelegate, MKMapViewD
         
         switch region.type {
         case .iaRegionTypeVenue:
-            showToast(message: "Entering Venue \(region.venue?.name ?? "NHSS")")
+            _ = 0
+            //showToast(message: "Entering Venue \(region.venue?.name ?? "NHSS")")
         case .iaRegionTypeFloorPlan:
             updateCamera = true
             if (region.floorplan != nil) {
@@ -443,6 +455,7 @@ class MapViewController: UIViewController, IALocationManagerDelegate, MKMapViewD
         return nil
     }
 
+    // MARK: Long Press Gesture
     @objc func handleLongPress(pressGesture: UILongPressGestureRecognizer) {
         if pressGesture.state != UIGestureRecognizer.State.began { return }
 

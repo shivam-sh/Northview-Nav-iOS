@@ -21,8 +21,8 @@
         "isFeatured": true,
         "isFavourite": false,
         "coordinates": {
-            "longitude": 43.77398201,
-            "latitude": -79.44605527
+            "longitude": 0,
+            "latitude": 0
         }
     }
 ,
@@ -35,8 +35,8 @@
         "isFeatured": true,
         "isFavourite": false,
         "coordinates": {
-            "longitude": 43.77470088,
-            "latitude": -79.44723836
+            "longitude": 60,
+            "latitude": 60
         }
     }
 ,
@@ -49,8 +49,8 @@
         "isFeatured": true,
         "isFavourite": false,
 	    "coordinates": {
-            "longitude": 43.7739477,
-            "latitude": -79.44626525
+            "longitude": 30,
+            "latitude": 30
         }
     }
 ,
@@ -63,8 +63,8 @@
         "isFeatured": true,
         "isFavourite": false,
 	    "coordinates": {
-            "longitude": 43.774364,
-            "latitude": -79.44643691
+            "longitude": -79.44643691,
+            "latitude": 43.774364
         }
     }
 
