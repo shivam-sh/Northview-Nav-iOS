@@ -12,44 +12,35 @@ struct RoomInfo: View {
     var room: Room
     
     var body: some View {
-        ZStack() {
-            Rectangle()
-                .foregroundColor(Color.white)
-                .cornerRadius(20)
-                .frame(height: 400)
-            
+        NavigationView {
             VStack {
-                Text(room.name)
-                    .font(.title)
-                    .fontWeight(.semibold)
-                    .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-                    .padding([.top, .leading, .trailing])
-                
-                RoundedImage(image: room.image, text: "")
-                    .padding(.horizontal)
-                
+                Image(room.image)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .padding(.bottom)
+                    
                 Text(room.description)
                     .font(.body)
                     .foregroundColor(Color.gray)
                     .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-                    .padding(.horizontal)
-                
+                    .padding([.leading, .bottom, .trailing])
+                    
                 Spacer()
-                
-                NavigationLink(destination: Text("Test")) {
+                    
+                NavigationLink(destination: MapView()) {
                     ZStack {
                         Rectangle()
                             .frame(minHeight: 0, maxHeight: 60)
                             .cornerRadius(20)
-                            .foregroundColor(Color.white)
+                            .foregroundColor(ColorFromRGB(rgb: 0x555555))
                         Text("Go")
                             .font(.title)
                             .fontWeight(.medium)
-                            .foregroundColor(Color.black)
+                            .foregroundColor(Color.white)
                     }
                 }.padding([.leading, .bottom, .trailing])
-                    .shadow(radius: 1)
-            }.frame(height: 400)
+                        .shadow(radius: 1)
+            }.navigationBarTitle(room.name)
         }
     }
 }

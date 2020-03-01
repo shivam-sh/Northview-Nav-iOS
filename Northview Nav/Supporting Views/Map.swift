@@ -44,7 +44,7 @@ struct TestMap: UIViewRepresentable {
 
 struct Map_Previews: PreviewProvider {
     static var previews: some View {
-        Map()
+        TestMap(lat: 50, long: 30)
     }
 }
 #endif
@@ -155,6 +155,7 @@ class MapViewController: UIViewController, IALocationManagerDelegate, MKMapViewD
         // MARK:   Loading Graphic init
         // Show spinner while waiting for location information from IALocationManager
         //SVProgressHUD.show(withStatus: NSLocalizedString("Waiting for location data", comment: ""))
+        UserDefaults.standard.set(true, forKey: "Loading")
     }
 
     // Function to change the map overlay
@@ -212,6 +213,7 @@ class MapViewController: UIViewController, IALocationManagerDelegate, MKMapViewD
 
             // MARK: Loading Graphic Dismissal
             //SVProgressHUD.dismiss()
+            UserDefaults.standard.set(false, forKey: "Loading")
             currentLocation = l.location
 
             if currentAccuracyCircle != nil {

@@ -14,6 +14,8 @@ struct MapView: View {
     var long: Double = 0.0
     var initWayfinding: Bool = false
     
+    @State var isLoading: Bool = UserDefaults.standard.bool(forKey: "Loading")
+    
     var body: some View {
         ZStack {
             Map()

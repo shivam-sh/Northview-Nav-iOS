@@ -73,7 +73,7 @@
         "name": "Gym 2",
         "id": 106,
         "floor": 1,
-        "description": "the secong gym",
+        "description": "the second gym",
         "image": "default",
         "isFeatured": true,
         "isFavourite": false,

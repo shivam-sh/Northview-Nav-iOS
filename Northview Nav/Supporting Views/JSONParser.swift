@@ -12,8 +12,13 @@ import UIKit
 import SwiftUI
 
 let roomData: [Room] = load("roomData.json")
-let features = roomData.filter { $0.isFeatured }
+
+let featuredRooms = roomData.filter { $0.isFeatured }
 let favourites = roomData.filter { $0.isFavourite }
+
+let firstFloor = roomData.filter { $0.floor == Floor.first}
+let secondFloor = roomData.filter { $0.floor == Floor.second}
+let thirdFloor = roomData.filter { $0.floor == Floor.third}
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
