@@ -3,153 +3,578 @@
         "name": "The Office",
         "id": 101,
         "floor": 1,
-        "description": "The main office",
-        "image": "office",
+        "description": "The place where people get in trouble",
         "isFeatured": true,
         "isFavourite": false,
+        "image": "office",
         "coordinates": {
-            "longitude": 43.77378888,
-            "latitude": -79.44634706
+            "latitude": 43.77378888,
+            "longitude": -79.44634706
         }
     },
     {
         "name": "Cafeteria",
         "id": 102,
         "floor": 1,
-        "description": "The food eating place",
-        "image": "default",
+        "description": "The place where food is ate",
         "isFeatured": true,
         "isFavourite": false,
+        "image": "default",
         "coordinates": {
-            "longitude": 0,
-            "latitude": 0
+            "latitude": 43.77398201,
+            "longitude": -79.44605527
         }
-    }
-,
+    },
     {
         "name": "The Library",
         "id": 103,
         "floor": 1,
-        "description": "The book reading place",
-        "image": "default",
+        "description": "Book place",
         "isFeatured": true,
         "isFavourite": false,
+        "image": "default",
         "coordinates": {
-            "longitude": 60,
-            "latitude": 60
+            "latitude": 43.77470088,
+            "longitude": -79.44723836
         }
-    }
-,
+    },
     {
         "name": "Auditorium",
         "id": 104,
         "floor": 1,
-        "description": "The auditorium place",
-        "image": "default",
+        "description": "Uhh watch assemblies",
         "isFeatured": true,
         "isFavourite": false,
-	    "coordinates": {
-            "longitude": 30,
-            "latitude": 30
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.7739477,
+            "longitude": -79.44626525
         }
-    }
-,
+    },
     {
         "name": "Gym 1",
         "id": 105,
         "floor": 1,
-        "description": "The first gym",
-        "image": "default",
-        "isFeatured": true,
+        "description": "",
+        "isFeatured": false,
         "isFavourite": false,
-	    "coordinates": {
-            "longitude": -79.44643691,
-            "latitude": 43.774364
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.774364,
+            "longitude": -79.44643691
         }
-    }
-
-,
+    },
     {
         "name": "Gym 2",
         "id": 106,
         "floor": 1,
-        "description": "the second gym",
-        "image": "default",
-        "isFeatured": true,
+        "description": "",
+        "isFeatured": false,
         "isFavourite": false,
-	    "coordinates": {
-            "longitude": 43.77438153,
-            "latitude": -79.44628805
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77438153,
+            "longitude": -79.44628805
         }
-    }
-,
+    },
     {
         "name": "Gym 3",
         "id": 107,
         "floor": 1,
-        "description": "The third gym",
-        "image": "default",
+        "description": "",
         "isFeatured": false,
         "isFavourite": false,
-	    "coordinates": {
-            "longitude": 43.77476113,
-            "latitude": -79.4459179
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77476113,
+            "longitude": -79.4459179
         }
-    }
-,
+    },
     {
         "name": "RM 101",
         "id": 108,
         "floor": 1,
-        "description": "another room",
-        "image": "default",
+        "description": "",
         "isFeatured": false,
         "isFavourite": false,
-	    "coordinates": {
-            "longitude": 43.77374046,
-            "latitude": -79.44675475
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77374046,
+            "longitude": -79.44675475
         }
-    }
-,
+    },
     {
         "name": "RM 103",
         "id": 109,
         "floor": 1,
-        "description": "another room",
-        "image": "default",
+        "description": "",
         "isFeatured": false,
         "isFavourite": false,
-	    "coordinates": {
-            "longitude": 43.77383343,
-            "latitude": -79.44678828
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77383343,
+            "longitude": -79.44678828
         }
-    }
-,
+    },
     {
         "name": "RM 105",
         "id": 110,
         "floor": 1,
-        "description": "another room",
-        "image": "default",
+        "description": "",
         "isFeatured": false,
         "isFavourite": false,
-	    "coordinates": {
-            "longitude": 43.77393741,
-            "latitude": -79.44682573
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77393741,
+            "longitude": -79.44682573
         }
-    }
-,
+    },
     {
         "name": "RM 107",
         "id": 111,
         "floor": 1,
-        "description": "another room",
-        "image": "default",
+        "description": "",
         "isFeatured": false,
         "isFavourite": false,
-	    "coordinates": {
-            "longitude": 43.77411522,
-            "latitude": -79.44690764
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77411522,
+            "longitude": -79.44690764
+        }
+    },
+    {
+        "name": "RM 115",
+        "id": 112,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77426692,
+            "longitude": -79.44695258
+        }
+    },
+    {
+        "name": "RM 116",
+        "id": 113,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77426569,
+            "longitude": -79.44692271
+        }
+    },
+    {
+        "name": "RM 117",
+        "id": 114,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77435442,
+            "longitude": -79.44699115
+        }
+    },
+    {
+        "name": "RM 118",
+        "id": 115,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77435524,
+            "longitude": -79.44696038
+        }
+    },
+    {
+        "name": "RM 119",
+        "id": 116,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77441474,
+            "longitude": -79.447026
+        }
+    },
+    {
+        "name": "RM 120",
+        "id": 117,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77441251,
+            "longitude": -79.44697201
+        }
+    },
+    {
+        "name": "RM 121",
+        "id": 118,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77449483,
+            "longitude": -79.44733009
+        }
+    },
+    {
+        "name": "RM 122",
+        "id": 119,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77446287,
+            "longitude": -79.4473207
+        }
+    },
+    {
+        "name": "RM 123",
+        "id": 120,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77459457,
+            "longitude": -79.44724694
+        }
+    },
+    {
+        "name": "Daycare",
+        "id": 121,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.7745477,
+            "longitude": -79.44705337
+        }
+    },
+    {
+        "name": "RM 126",
+        "id": 122,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77455168,
+            "longitude": -79.44693045
+        }
+    },
+    {
+        "name": "Drama (RM 128)",
+        "id": 123,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77457975,
+            "longitude": -79.44680143
+        }
+    },
+    {
+        "name": "RM 129",
+        "id": 124,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77462908,
+            "longitude": -79.44667567
+        }
+    },
+    {
+        "name": "Business Office (RM 129.5)",
+        "id": 125,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77465558,
+            "longitude": -79.44654956
+        }
+    },
+    {
+        "name": "RM 131",
+        "id": 126,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77467631,
+            "longitude": -79.44648316
+        }
+    },
+    {
+        "name": "Auto Shop (RM133)",
+        "id": 127,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.7748533,
+            "longitude": -79.4466999
+        }
+    },
+    {
+        "name": "Auto Shop (RM 135)",
+        "id": 128,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.7748533,
+            "longitude": -79.4466999
+        }
+    }
+
+    ,
+    {
+        "name": "Dance Studio (RM 137)",
+        "id": 129,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.7749223,
+            "longitude": -79.44638893
+        }
+    },
+    {
+        "name": "Metal Shop (RM 139)",
+        "id": 130,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77475191,
+            "longitude": -79.4461692
+        }
+    },
+    {
+        "name": "Weight Room (RM 140)",
+        "id": 131,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77455002,
+            "longitude": -79.44609091
+        }
+    },
+    {
+        "name": "APGA Office",
+        "id": 132,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77471658,
+            "longitude": -79.44616467
+        }
+    },
+    {
+        "name": "RM 141",
+        "id": 133,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77490832,
+            "longitude": -79.44588974
+        }
+    },
+    {
+        "name": "RM 142",
+        "id": 134,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77483664,
+            "longitude": -79.44565808
+        }
+    }
+
+    ,
+    {
+        "name": "RM 143",
+        "id": 135,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77486453,
+            "longitude": -79.44563303
+        }
+    },
+    {
+        "name": "RM 144",
+        "id": 136,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77471468,
+            "longitude": -79.44534238
+        }
+    }
+
+    ,
+    {
+        "name": "RM 145",
+        "id": 137,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77487927,
+            "longitude": -79.4455719
+        }
+    },
+    {
+        "name": "RM 146",
+        "id": 138,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77484537,
+            "longitude": -79.44539487
+        }
+    },
+    {
+        "name": "RM 147",
+        "id": 139,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77516493,
+            "longitude": -79.44556922
+        }
+    },
+    {
+        "name": "RM 148",
+        "id": 140,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77495093,
+            "longitude": -79.44544047
+        }
+    },
+    {
+        "name": "Woodshop (RM 150)",
+        "id": 141,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77520851,
+            "longitude": -79.4455424
+        }
+    },
+    {
+        "name": "Baking (RM 156)",
+        "id": 142,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77444641,
+            "longitude": -79.44587499
+        }
+    },
+    {
+        "name": "Culinary Class (RM 155)",
+        "id": 143,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77443091,
+            "longitude": -79.44577441
+        }
+    },
+    {
+        "name": "Swimming Pool",
+        "id": 144,
+        "floor": 1,
+        "description": "",
+        "isFeatured": false,
+        "isFavourite": false,
+        "image": "default",
+        "coordinates": {
+            "latitude": 43.77442801,
+            "longitude": -79.44579586
         }
     }
 ]
