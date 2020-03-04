@@ -215,12 +215,11 @@ class MapViewController: UIViewController, IALocationManagerDelegate, MKMapViewD
             UserDefaults.standard.set(false, forKey: "Loading")
             currentLocation = l.location
             
-            showToast(message: "\(wayfindOnOpen)")
-            
             //if (self.floorPlan != nil && self.floorPlan!.floor != nil) {
             if wayfindOnOpen {
                 let req = IAWayfindingRequest()
-                req.coordinate = CLLocationCoordinate2DMake(selectedRoom.coordinates.latitude, selectedRoom.coordinates.longitude)
+                req.coordinate = wayfindingCoords
+                showToast(message: "\(req.coordinate)")
                 req.floor = self.floorPlan!.floor!.level
                 self.locationManager.lockIndoors(true)
                 self.locationManager.startMonitoring(forWayfinding: req)
@@ -460,12 +459,13 @@ class MapViewController: UIViewController, IALocationManagerDelegate, MKMapViewD
         if pressGesture.state != UIGestureRecognizer.State.began { return }
 
         let touchPoint = pressGesture.location(in: map)
-        let coord = map.convert(touchPoint, toCoordinateFrom: map)
+        wayfindingCoords = map.convert(touchPoint, toCoordinateFrom: map)
         
         // Wayfinding requests are meaningful only when positioning on a floor plan
         if (self.floorPlan != nil && self.floorPlan!.floor != nil) {
             let req = IAWayfindingRequest()
-            req.coordinate = coord
+            req.coordinate = wayfindingCoords
+            showToast(message: "\(req.coordinate)")
             req.floor = self.floorPlan!.floor!.level
             self.locationManager.lockIndoors(true)
             self.locationManager.startMonitoring(forWayfinding: req)

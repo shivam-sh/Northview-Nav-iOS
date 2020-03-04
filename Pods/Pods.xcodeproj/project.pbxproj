@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = IndoorAtlas;
+			productName = IndoorAtlas;
 		};
 /* End PBXAggregateTarget section */
 
@@ -55,11 +56,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1474293A70ACA34B6581F1895CD759AC /* Pods_Northview_Nav_Northview_NavUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Northview_Nav_Northview_NavUITests.framework; path = "Pods-Northview Nav-Northview NavUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1474293A70ACA34B6581F1895CD759AC /* Pods_Northview_Nav_Northview_NavUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Northview_Nav_Northview_NavUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		184CD2460B87D6C591F3501FD0E96F30 /* Pods-Northview Nav-Northview NavUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Northview Nav-Northview NavUITests-umbrella.h"; sourceTree = "<group>"; };
 		23B3F3A6CB79795607D35E8BD4AFBDAE /* Pods-Northview NavTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Northview NavTests-umbrella.h"; sourceTree = "<group>"; };
 		2715513FEFC66BAE847BBF8A0E2120E0 /* Pods-Northview NavTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Northview NavTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2B590801DA7658EA764687A874E28172 /* Pods_Northview_Nav.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Northview_Nav.framework; path = "Pods-Northview Nav.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B590801DA7658EA764687A874E28172 /* Pods_Northview_Nav.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Northview_Nav.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		301F96C399CB425515F1DC565B38696C /* Pods-Northview Nav.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Northview Nav.modulemap"; sourceTree = "<group>"; };
 		30E6BA7C464679BBC13435936486BE7A /* Pods-Northview Nav-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Northview Nav-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -75,7 +76,7 @@
 		8232E8A86057364F15BC05A1CAD3242D /* Pods-Northview NavTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Northview NavTests.modulemap"; sourceTree = "<group>"; };
 		8405110DA448083BA6F4AC479D70114E /* Pods-Northview Nav-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Northview Nav-dummy.m"; sourceTree = "<group>"; };
 		8A4D0710E4570D5F0681EE62194C2DA0 /* Pods-Northview Nav-Northview NavUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Northview Nav-Northview NavUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F9A90BCD314F34C6E719AAB6019A34F /* Pods-Northview Nav.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Northview Nav.release.xcconfig"; sourceTree = "<group>"; };
 		AF6C82BD8BE0602BC1A7B73E27E252A4 /* Pods-Northview Nav-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Northview Nav-frameworks.sh"; sourceTree = "<group>"; };
 		B0E0A4FD2D4FF0403600CD1E06AB70E2 /* Pods-Northview Nav-Northview NavUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Northview Nav-Northview NavUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -83,7 +84,7 @@
 		CC339706053B60D2C96176AE66866F64 /* Pods-Northview Nav-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Northview Nav-Info.plist"; sourceTree = "<group>"; };
 		CF8A0E366666F9B1E2B1516656A29DC2 /* Pods-Northview Nav-Northview NavUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Northview Nav-Northview NavUITests.modulemap"; sourceTree = "<group>"; };
 		D51FA517944EE384FB0D1A5EE70CB78D /* Pods-Northview Nav-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Northview Nav-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E7ACF6DF26D3106C6ACF28DCA46CB753 /* Pods_Northview_NavTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Northview_NavTests.framework; path = "Pods-Northview NavTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7ACF6DF26D3106C6ACF28DCA46CB753 /* Pods_Northview_NavTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Northview_NavTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F62DCBC5046C0E6BFFE086CB047D3442 /* Pods-Northview NavTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Northview NavTests-Info.plist"; sourceTree = "<group>"; };
 		F70D8D0056BB4E6B42C6C17FA351624C /* Pods-Northview Nav-Northview NavUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Northview Nav-Northview NavUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F735902D9FC98B2343520B78E39F8D84 /* Pods-Northview NavTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Northview NavTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -187,7 +188,6 @@
 				D6C56D960A36EE8E5FB07ED21B918650 /* Frameworks */,
 				2E79D85112FF883D65117305050D6F42 /* Support Files */,
 			);
-			name = IndoorAtlas;
 			path = IndoorAtlas;
 			sourceTree = "<group>";
 		};

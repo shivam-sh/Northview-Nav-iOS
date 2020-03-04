@@ -7,12 +7,12 @@
 //
 
 import SwiftUI
+import CoreLocation
 
 struct Home: View {
     
     @State var showingMap = false
     @State var showingDetail = false
-    //@State var selectedRoom: Room = roomData[0]
     
     var featured: [Room] {
         roomData.filter { $0.isFeatured}
@@ -20,48 +20,44 @@ struct Home: View {
     
     var body: some View {
          NavigationView {
-                ScrollView {
-                    NavigationLink(destination: MapView().environment(\.colorScheme, .dark)) {
-                        ImageCard(image: "DarkMap", text: "Open Map")
-                            .shadow(radius: 10)
-                            .padding()
-                    }.buttonStyle(PlainButtonStyle()).onTapGesture {
-                        wayfindOnOpen = false
-                    }
-                    
-                    NavigationLink(destination: AllRooms()) {
-                        TextCard(text: "All Rooms", color: ColorFromRGB(rgb: 0x555555))
-                            .shadow(radius: 10)
-                            .padding(.horizontal)
-                    }.buttonStyle(PlainButtonStyle()).onTapGesture {
-                        wayfindOnOpen = true
-                    }
-                    
-                    Text("Featured Rooms")
-                        .font(.title)
-                        .fontWeight(.bold)
+            ScrollView {
+                NavigationLink(destination: MapView().environment(\.colorScheme, .dark)) {
+                    ImageCard(image: "DarkMap", text: "Open Map")
+                        .shadow(radius: 10)
                         .padding()
-                        .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-                    
-                    ForEach(featuredRooms) { room in
-                        VStack {
-                            Button(action: {
-                                //self.showingDetail.toggle()
-                            }) {
-                                RowView(room: room)
-                                    .onTapGesture {
-                                        selectedRoom = room
-                                        wayfindOnOpen = true
-                                        self.showingDetail.toggle()
-                                }
-                            }.buttonStyle(PlainButtonStyle())
-                                .sheet(isPresented: self.$showingDetail) {
-                                    RoomInfo(room: selectedRoom)
-                            }
-                            Divider().padding(.horizontal)
-                        }
+                }.buttonStyle(PlainButtonStyle()).onTapGesture {
+                    wayfindOnOpen = false
                     }
-                }.navigationBarTitle("Northview Nav", displayMode: .automatic)
+                
+                NavigationLink(destination: AllRooms()) {
+                    TextCard(text: "All Rooms", color: ColorFromRGB(rgb: 0x555555))
+                        .shadow(radius: 10)
+                        .padding(.horizontal)
+                }.buttonStyle(PlainButtonStyle())
+                    
+                Text("Featured Rooms")
+                    .font(.title)
+                    .fontWeight(.bold)
+                    .padding()
+                    .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+                    
+                ForEach(featuredRooms) { room in
+                        Button(action: {
+                                //self.showingDetail.toggle()
+                        }) {
+                        RowView(room: room)
+                            .onTapGesture {
+                                selectedRoom = room
+                                wayfindOnOpen = true
+                                wayfindingCoords = CLLocationCoordinate2DMake(selectedRoom.coordinates.latitude, selectedRoom.coordinates.longitude)
+                                self.showingDetail.toggle()
+                        }.padding(.bottom, 5)
+                        }.buttonStyle(PlainButtonStyle())
+                            .sheet(isPresented: self.$showingDetail) {
+                                RoomInfo(room: selectedRoom)
+                            }
+                }
+            }.navigationBarTitle("Northview Nav", displayMode: .automatic)
         }
     }
 }

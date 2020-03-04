@@ -21,8 +21,6 @@
 		EE37025923AC51930026A764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE37025823AC51930026A764 /* Assets.xcassets */; };
 		EE37025C23AC51930026A764 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE37025B23AC51930026A764 /* Preview Assets.xcassets */; };
 		EE37025F23AC51930026A764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE37025D23AC51930026A764 /* LaunchScreen.storyboard */; };
-		EE37026A23AC51940026A764 /* Northview_NavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE37026923AC51940026A764 /* Northview_NavTests.swift */; };
-		EE37027523AC51940026A764 /* Northview_NavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE37027423AC51940026A764 /* Northview_NavUITests.swift */; };
 		EE3C3ECC240C31340026CD7F /* TempData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3C3ECB240C31340026CD7F /* TempData.swift */; };
 		EE40714E23BA532C003A2832 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40714D23BA532C003A2832 /* RowView.swift */; };
 		EE55A52623BA8A9D00CBA7C1 /* RoomInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE55A52523BA8A9D00CBA7C1 /* RoomInfo.swift */; };
@@ -30,6 +28,7 @@
 		EE8019AE23B16B28008E74F0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8019AD23B16B28008E74F0 /* MapView.swift */; };
 		EE8415B2240A096600C89192 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8415B1240A096600C89192 /* Palette.swift */; };
 		EE8415B4240A0BA800C89192 /* AllRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8415B3240A0BA800C89192 /* AllRooms.swift */; };
+		EE93C045240EEF53008CE37F /* floorSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE93C044240EEF53008CE37F /* floorSelector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,17 +73,14 @@
 		EE37025E23AC51930026A764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE37026023AC51930026A764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE37026523AC51940026A764 /* Northview NavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Northview NavTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE37026923AC51940026A764 /* Northview_NavTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Northview_NavTests.swift; sourceTree = "<group>"; };
-		EE37026B23AC51940026A764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE37027023AC51940026A764 /* Northview NavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Northview NavUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE37027423AC51940026A764 /* Northview_NavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Northview_NavUITests.swift; sourceTree = "<group>"; };
-		EE37027623AC51940026A764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE3C3ECB240C31340026CD7F /* TempData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempData.swift; sourceTree = "<group>"; };
 		EE40714D23BA532C003A2832 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 		EE55A52523BA8A9D00CBA7C1 /* RoomInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomInfo.swift; sourceTree = "<group>"; };
 		EE8019AD23B16B28008E74F0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		EE8415B1240A096600C89192 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
 		EE8415B3240A0BA800C89192 /* AllRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRooms.swift; sourceTree = "<group>"; };
+		EE93C044240EEF53008CE37F /* floorSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = floorSelector.swift; sourceTree = "<group>"; };
 		F94CC555735DAA189547F63B /* Pods-Northview Nav-Northview NavUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Northview Nav-Northview NavUITests.debug.xcconfig"; path = "Target Support Files/Pods-Northview Nav-Northview NavUITests/Pods-Northview Nav-Northview NavUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +145,7 @@
 				EE21D00823B3C935000DC7FE /* Map.swift */,
 				EE40714D23BA532C003A2832 /* RowView.swift */,
 				EE3C3ECB240C31340026CD7F /* TempData.swift */,
+				EE93C044240EEF53008CE37F /* floorSelector.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -166,8 +163,6 @@
 			isa = PBXGroup;
 			children = (
 				EE37025123AC518D0026A764 /* Northview Nav */,
-				EE37026823AC51940026A764 /* Northview NavTests */,
-				EE37027323AC51940026A764 /* Northview NavUITests */,
 				EE37025023AC518D0026A764 /* Products */,
 				D69116273E2E5376CF5FB6B2 /* Pods */,
 				07A2E6DC05D59174AFC8C43E /* Frameworks */,
@@ -210,24 +205,6 @@
 				EE37025B23AC51930026A764 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		EE37026823AC51940026A764 /* Northview NavTests */ = {
-			isa = PBXGroup;
-			children = (
-				EE37026923AC51940026A764 /* Northview_NavTests.swift */,
-				EE37026B23AC51940026A764 /* Info.plist */,
-			);
-			path = "Northview NavTests";
-			sourceTree = "<group>";
-		};
-		EE37027323AC51940026A764 /* Northview NavUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EE37027423AC51940026A764 /* Northview_NavUITests.swift */,
-				EE37027623AC51940026A764 /* Info.plist */,
-			);
-			path = "Northview NavUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -477,6 +454,7 @@
 				EE8415B2240A096600C89192 /* Palette.swift in Sources */,
 				EE3C3ECC240C31340026CD7F /* TempData.swift in Sources */,
 				EE21D00D23B3E8F9000DC7FE /* Home.swift in Sources */,
+				EE93C045240EEF53008CE37F /* floorSelector.swift in Sources */,
 				2D3EAF8D23B96340005F2020 /* APIKeys.swift in Sources */,
 				EE1F820223B1C3540037304E /* Room.swift in Sources */,
 				EE8019AE23B16B28008E74F0 /* MapView.swift in Sources */,
@@ -491,7 +469,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE37026A23AC51940026A764 /* Northview_NavTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,7 +476,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE37027523AC51940026A764 /* Northview_NavUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,7 +12,7 @@ struct RowView: View {
     var room: Room
     
     var body: some View {
-        HStack (){
+        HStack (alignment: .center){
             Image(room.image).renderingMode(.original).resizable().scaledToFit().clipShape(Circle()).shadow(radius: 10)
             VStack(alignment: .leading) {
                 Text(room.name)
@@ -20,10 +20,9 @@ struct RowView: View {
                 Text(room.description)
                     .font(.caption)
                     .foregroundColor(Color.gray)
-            }//.padding(.leading, 30)
+            }
             Spacer()
         }.frame(height: 55).contentShape(Rectangle())
-
     }
 }
 

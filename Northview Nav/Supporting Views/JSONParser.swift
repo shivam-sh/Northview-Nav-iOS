@@ -16,9 +16,9 @@ let roomData: [Room] = load("roomData.json")
 let featuredRooms = roomData.filter { $0.isFeatured }
 let favourites = roomData.filter { $0.isFavourite }
 
-let firstFloor = roomData.filter { $0.floor == Floor.first}
-let secondFloor = roomData.filter { $0.floor == Floor.second}
-let thirdFloor = roomData.filter { $0.floor == Floor.third}
+let firstFloor = roomData.filter { $0.floor == 1}
+let secondFloor = roomData.filter { $0.floor == 2}
+let thirdFloor = roomData.filter { $0.floor == 3}
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

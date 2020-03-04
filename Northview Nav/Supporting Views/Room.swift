@@ -14,19 +14,13 @@ import CoreLocation
 struct Room: Hashable, Codable, Identifiable {
     var name: String
     var id: Int
-    var floor: Floor
+    var floor: Int
     var description: String
     var coordinates: Coordinates
-    var image: String
+    var image: String = "default"
     
     var isFeatured: Bool
     var isFavourite: Bool
-}
-
-enum Floor: Int, CaseIterable, Codable, Hashable {
-       case first = 1
-       case second = 2
-       case third = 3
 }
 
 struct Coordinates: Hashable, Codable {

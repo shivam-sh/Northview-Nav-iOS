@@ -20,6 +20,15 @@ struct MapView: View {
         ZStack {
             Map()
                 .edgesIgnoringSafeArea(.all)
+            HStack {
+                Spacer()
+                VStack {
+                    Spacer()
+                    floorSelector()
+                        .padding(.trailing)
+                        .padding(.bottom, 30)
+                }
+            }
         }
     }
 }
